@@ -3,12 +3,43 @@ a {
   text-decoration: none;
 }
 
-header{
+header *{
 	background-color: black;
+	margin: 0px;
 }
 
 #title h1{
 	color: white;
+	text-align: center;
+	font-size: 48px;
+	height: 97px;
+	line-height: 97px;
+}
+
+#menu{
+	padding: 0px;
+}
+
+ul .header-button{
+	color: white;
+	text-align: center;
+	list-style: none;
+	width: 25%;
+	height: 97px;
+	float:left;			/*リスト項目を横に並べる*/
+	display:inline;			/*リスト項目をインライン表示にする*/
+	list-style-type:none;		/*リストマーカー無しにする*/
+}
+
+ul .header-button a{
+	vertical-align: middle;
+	line-height: 97px;
+	font-size: 28px;
+}
+
+ul .header-button a:hover{
+	font-weight: bold;
+	text-decoration: underline;
 }
 
 body{
@@ -20,9 +51,11 @@ body{
 	display: block;
 }
 
-li .header-button{
-	/*display: inline-block;*/
-	float:left;			/*リスト項目を横に並べる*/
-	display:inline;			/*リスト項目をインライン表示にする*/
-	list-style-type:none;		/*リストマーカー無しにする*/
+
+.element{
+	padding: 70px 20px;
+}
+
+.element h1{
+	color: black;
 }
