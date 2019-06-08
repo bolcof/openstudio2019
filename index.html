@@ -21,8 +21,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!--CSS-->
-	<!-- <link rel="stylesheet" href="main.css" type="text/css">
-	<link rel="stylesheet" href="colorbox.css" type="text/css">
+	<link rel="stylesheet" href="main.css" type="text/css">
+	<!-- <link rel="stylesheet" href="colorbox.css" type="text/css">
 	<link rel="stylesheet" href="./bxslider/dist/jquery.bxslider.css" type="text/css"> -->
 
 	<!-- まだない -->
@@ -32,7 +32,7 @@
 	<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 	<!--user agent-->
-	<script type="text/javascript">
+	<!-- <script type="text/javascript">
 		var ua = navigator.userAgent;
 		if (ua.indexOf('iPhone') > 0
 			|| (ua.indexOf('iPad') > 0)
@@ -42,15 +42,31 @@
 			// スマホ用へ
 			location.href = 'sp/sp.html';
 		}
-	</script>
+	</script> -->
 </head>
 
 <body>
-	<header></header>
+	<header>
+		<div id="title"><h1><a href="index.html">OPEN STUDIO 2019</a></h1></div>
+		<ul id="menu">
+			<li class="header-button" id="header-top"><a href="xxx.html">Top</a></li>
+			<li class="header-button" id="header-about"><a href="xxx.html">About</a></li>
+			<li class="header-button" id="header-exhibitors"><a href="xxx.html">Exhibitors</a></li>
+			<li class="header-button" id="header-access"><a href="xxx.html">Access</a></li>
+		</ul>
+	</header>
+
 	<div class="top-wrapper"></div>
-	<div class="about-wrapper"></div>
+	
+	<div class="about-wrapper">
+		<img src="images/sample/pose.png" id="key-visual">
+
+	</div>
+	
 	<div class="exhibitors-wrapper"></div>
+	
 	<div class="access-wrapper"></div>
+	
 	<footer></footer>
 </body>
 </html>

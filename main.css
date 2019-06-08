@@ -1,0 +1,28 @@
+a {  
+  color: inherit;
+  text-decoration: none;
+}
+
+header{
+	background-color: black;
+}
+
+#title h1{
+	color: white;
+}
+
+body{
+	margin: 0px;
+}
+
+#key-visual{
+	width: 100%;
+	display: block;
+}
+
+li .header-button{
+	/*display: inline-block;*/
+	float:left;			/*リスト項目を横に並べる*/
+	display:inline;			/*リスト項目をインライン表示にする*/
+	list-style-type:none;		/*リストマーカー無しにする*/
+}
