@@ -94,7 +94,7 @@ body{
 .artist-wrapper .sumbnail{
 	display: inline-block;
 	width: 50%;
-	margin: 20px 0px;
+	margin: 2.667vw 0px;
 	float: left;
 }
 
@@ -167,7 +167,7 @@ footer{
 }
 
 footer #footer-wrapper{
-	margin: 20px;
+	margin: 2.667vw;
 }
 
 footer div #icons img{
