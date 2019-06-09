@@ -46,6 +46,8 @@ body{
 	margin: 0px;
 }
 
+
+
 #key-visual{
 	width: 100%;
 	display: block;
@@ -102,7 +104,7 @@ body{
 
 .artist-wrapper .infoText{
 	width: 50%;
-	margin: 20px 0px;
+	margin: 2.667vw 0vw;
 	-ms-flex-pack: distribute;
 	justify-content: space-around;
 
@@ -121,11 +123,11 @@ body{
 .infoText .lab{
 	font-size: 3.45vw;
 	font-weight: bold;
-	padding: 10px 0px 10px 20px;
+	padding: 1.333vw 0vw 1.333vw 2.667vw;
 }
 
 .infoText .name{
-	padding: 10px 0px 10px 20px;
+	padding: 1.333vw 0vw 1.333vw 2.667vw;
 }
 
 .infoText .name .nameJP{
@@ -140,7 +142,7 @@ body{
 
 .infoText .modalButton{
 	font-size: 3.45vw;
-	padding: 10px 0px 10px 20px;
+	padding: 1.333vw 0vw 1.333vw 2.667vw;
 	text-decoration: underline;
 }
 
@@ -150,3 +152,29 @@ body{
 }
 
 
+/*フッター*/
+footer{
+	height: 38vw;
+	background: black;
+	
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+
+  	display:-webkit-box;
+  	display:-ms-flexbox;
+  	display:flex;
+   	flex-flow: column;
+}
+
+footer #footer-wrapper{
+	margin: 20px;
+}
+
+footer div #icons img{
+	width: 8vw;
+}
+
+footer div #credit{
+	color: white;
+	font-size: 2.8vw;
+}
