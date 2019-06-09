@@ -11,7 +11,7 @@ header *{
 #title h1{
 	color: white;
 	text-align: center;
-	font-size: 48px;
+	font-size: 6.4vw;
 	height: 97px;
 	line-height: 97px;
 }
@@ -34,7 +34,7 @@ ul .header-button{
 ul .header-button a{
 	vertical-align: middle;
 	line-height: 97px;
-	font-size: 28px;
+	font-size: 3.75vw;
 }
 
 ul .header-button a:hover{
@@ -61,7 +61,7 @@ body{
 }
 
 .element #statement{
-	font-size: 26px;
+	font-size: 3.45vw;
 	letter-spacing: 0.15em;
 	line-height: 1.7em;
 	text-align: justify;
@@ -70,23 +70,23 @@ body{
 }
 
 .element h1{
-	font-size: 30px;
-	margin: 70px 20px;
+	font-size: 4vw;
+	margin: 70px 0px 20px 20px;
 	color: black;
 }
 
 .element .grades{
-	margin: 20px 20px;
-
+	margin: 20px 0px 20px 20px;
+	padding: 50px 0px 0px 0px;
 }
 
 .element .grades h2{
-	font-size: 28px;
+	font-size: 3.75vw;
 	color: black;
 }
 
 .artist-wrapper{
-	display: flex;;
+	display: flex;
 }
 
 .artist-wrapper .sumbnail{
@@ -101,18 +101,52 @@ body{
 }
 
 .artist-wrapper .infoText{
-	display: inline-block;
 	width: 50%;
-	height: 221px;
 	margin: 20px 0px;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+
+  	display:-webkit-box;
+  	display:-ms-flexbox;
+  	display:flex;
+   	flex-flow: column;
 }
 
 .infoText *{
   	vertical-align: top;
-  	padding-left: 20px;
+  	margin: 0px;
+
+}
+
+.infoText .lab{
+	font-size: 3.45vw;
+	font-weight: bold;
+	padding: 10px 0px 10px 20px;
+}
+
+.infoText .name{
+	padding: 10px 0px 10px 20px;
+}
+
+.infoText .name .nameJP{
+	font-size: 4vw;
+	font-weight: bold;
+}
+
+.infoText .name .nameEN{
+	font-size: 3.45vw;
+	font-weight: bold;
+}
+
+.infoText .modalButton{
+	font-size: 3.45vw;
+	padding: 10px 0px 10px 20px;
+	text-decoration: underline;
 }
 
 
-
+.access-wrapper{
+	background: #FAFAFA;
+}
 
 
