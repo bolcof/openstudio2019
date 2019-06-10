@@ -46,18 +46,18 @@ body{
 	margin: 0vw;
 }
 
+.element{
+	padding: 9.333vw 2.667vw;
+}
 
 
+/*トップ*/
 #key-visual{
 	width: 100%;
 	display: block;
 }
 
-
-.element{
-	padding: 9.333vw 2.667vw;
-}
-
+/*ステートメント*/
 .about-wrapper{
 	background: #FAFAFA;
 }
@@ -77,6 +77,67 @@ body{
 	color: black;
 }
 
+/*モーダル*/
+#modals-wrapper{
+	width: 100vw;
+	height: 100vh;
+	background: #00000088;
+	margin: 0;
+	padding: 0;
+	z-index: 8;
+	position: fixed;
+	top: 0px;
+}
+
+#modals-wrapper .artist-modal{
+	width: 84vw;
+	padding: 5.2vw;
+	background: #FFF;
+	border-radius: 2.8vw;
+	margin-top: 31.2vw;
+	margin-left: 2.8vw;
+}
+
+#modals-wrapper .artist-modal>*{
+	padding: 2.6vw 0vw;
+}
+
+.modal-lab{
+	font-size: 3.45vw;
+	font-weight: bold;
+}
+
+.modal-nameJP{
+	font-size: 4vw;
+	font-weight: bold;
+}
+
+.modal-nameEN{
+	font-size: 3.45vw;
+	font-weight: bold;
+}
+
+.work-photo{
+	width: 84vw;
+}
+
+.work-title{
+	font-size: 3.45vw;
+	margin: 0.5em 0vw;
+	text-align: right;;
+}
+
+.footer-column p{
+	font-size: 3.45vw;
+	margin: 0;
+}
+.footer-column .link{
+	font-size: 3.45vw;
+	padding-top: 3vw;
+	text-decoration: underline;;
+}
+
+/*出展者情報*/
 .element .grades{
 	margin: 9.333vw 0vw 9.333vw 2.667vw;
 	padding: 0vw 0vw 0vw 0vw;
