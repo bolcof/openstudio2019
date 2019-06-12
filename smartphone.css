@@ -5,6 +5,9 @@ a {
 
 header{
 	height: 25.6vw;
+	width: 100vw;
+	position: fixed;
+	z-index: 20;
 }
 
 header *{
@@ -56,6 +59,10 @@ body{
 
 
 /*トップ*/
+.top-wrapper{
+	padding-top: 25.6vw;
+}
+
 #key-visual{
 	width: 100%;
 	display: block;
