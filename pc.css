@@ -15,21 +15,24 @@ header *{
 #title{
 	display: inline-block;
 	width: 46.5vw;
-	height: 100%;
+	height: 6vw;
+	line-height: 6vw;
 }
 
 #title h1{
 	color: white;
 	text-align: center;
+	vertical-align: bottom;
 	font-size: 2vw;
-	margin: auto;
+	letter-spacing: 0.15em;
 }
 
 #menu{
 	padding: 0vw;
 	display: inline-block;
 	float: right;
-	height: 100%;
+	height: 6vw;
+	line-height: 6vw;
 }
 
 ul .header-button{
@@ -38,12 +41,13 @@ ul .header-button{
 	list-style: none;
 	float:left;			/*リスト項目を横に並べる*/
 	display:inline;			/*リスト項目をインライン表示にする*/
-	list-style-type:none;		/*リストマーカー無しにする*/
+	list-style-type: none;		/*リストマーカー無しにする*/
+	padding: 0vw 2.5vw;
 }
 
 ul .header-button a{
 	vertical-align: middle;
-	font-size: 2vw;
+	font-size: 1.3vw;
 }
 
 ul .header-button a:hover{
@@ -56,7 +60,7 @@ body{
 }
 
 .element{
-	padding: 9.333vw 2.667vw;
+	padding: 3.5vw 2vw;
 }
 
 
@@ -72,17 +76,17 @@ body{
 }
 
 .element #statement{
-	font-size: 3.45vw;
+	font-size: 1.2vw;
 	letter-spacing: 0.15em;
 	line-height: 1.7em;
 	text-align: justify;
 	font-feature-settings: "palt";
-	margin: 9.333vw 2.667vw;
+	margin: 3.5vw 15vw;
 }
 
 .element h1{
-	font-size: 4vw;
-	margin: 9.333vw 0vw 2.667vw 2.667vw;
+	font-size: 1.8vw;
+	margin: 3.5vw 0vw 2vw 15vw;
 	color: black;
 }
 
@@ -148,23 +152,38 @@ body{
 
 /*出展者情報*/
 .element .grades{
-	margin: 9.333vw 0vw 9.333vw 2.667vw;
+	margin: 9.333vw 15vw 9.333vw 15vw;
 	padding: 0vw 0vw 0vw 0vw;
 }
 
+/*ゴミ実装*/
+.element .m2{
+	height: 100vw;
+}
+.element .m1{
+	height: 85vw;
+}
+
 .element .grades h2{
-	font-size: 3.75vw;
+	font-size: 1.3vw;
 	color: black;
 }
 
 .artist-wrapper{
 	display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    float: left;
+	width: 50%;
 }
 
 .artist-wrapper .sumbnail{
 	display: inline-block;
-	width: 50%;
-	margin: 2.667vw 0vw;
+	width: 55%;
+	margin: 1vw 0vw;
 	float: left;
 }
 
@@ -173,8 +192,8 @@ body{
 }
 
 .artist-wrapper .infoText{
-	width: 50%;
-	margin: 2.667vw 0vw;
+	width: 45%;
+	margin: 1vw 0vw;
 	-ms-flex-pack: distribute;
 	justify-content: space-around;
 
@@ -190,28 +209,28 @@ body{
 }
 
 .infoText .lab{
-	font-size: 3.45vw;
+	font-size: 1.2vw;
 	font-weight: bold;
-	padding: 1.333vw 0vw 1.333vw 2.667vw;
+	padding: 0.45vw 0vw 0.45vw 1.2vw;
 }
 
 .infoText .name{
-	padding: 1.333vw 0vw 1.333vw 2.667vw;
+	padding: 0.45vw 0vw 0.45vw 1.2vw;
 }
 
 .infoText .name .nameJP{
-	font-size: 4vw;
+	font-size: 1.8vw;
 	font-weight: bold;
 }
 
 .infoText .name .nameEN{
-	font-size: 3.45vw;
+	font-size: 1.2vw;
 	font-weight: bold;
 }
 
 .infoText .modalButton{
-	font-size: 3.45vw;
-	padding: 1.333vw 0vw 1.333vw 2.667vw;
+	font-size: 1.2vw;
+	padding: 0.45vw 0vw 0.45vw 1.2vw;
 	text-decoration: underline;
 }
 
@@ -220,42 +239,42 @@ body{
 /*Access*/
 .access-wrapper{
 	background: #FAFAFA;
-	padding-bottom: 18.667vw;
+	padding-bottom: 6vw;
 }
 
 .access-wrapper #map{
-	margin: 2.667vw;
+	margin: 2vw 15vw 2vw 15vw;
 	letter-spacing: 0.1em;
 	line-height: 1.5;
 }
 
 .access-wrapper #map iframe{
-	margin: 2.667vw 0vw;
+	margin: 1vw 0vw;
 	width: 100%;
-	height: 60vw;
+	height: 48vw;
 }
 
 .access-wrapper #map #place-name{
-	font-size: 3.75vw;
+	font-size: 1.7vw;
 	font-weight: bold;
-	margin: 2.667vw 0vw;
+	margin: 1vw 0vw;
 }
 
 .access-wrapper #map #place-address{
-	font-size: 3.45vw;
-	margin: 1.333vw 0vw;
+	font-size: 1.4vw;
+	margin: 0.5vw 0vw;
 }
 
 .access-wrapper #map #place-description{
-	font-size: 3.45vw;
-	margin: 1.333vw 0vw;
+	font-size: 1.4vw;
+	margin: 0.5vw 0vw;
 }
 
 
 
 /*フッター*/
 footer{
-	height: 38vw;
+	height: 14vw;
 	background: black;
 	
 	-ms-flex-pack: distribute;
@@ -268,14 +287,15 @@ footer{
 }
 
 footer #footer-wrapper{
-	margin: 2.667vw;
+	margin: 0vw 7vw;
 }
 
 footer div #icons img{
-	width: 8vw;
+	width: 3vw;
+	padding-right: 1.2vw;
 }
 
 footer div #credit{
 	color: white;
-	font-size: 2.8vw;
+	font-size: 1.03vw;
 }

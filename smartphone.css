@@ -3,6 +3,10 @@ a {
   text-decoration: none;
 }
 
+header{
+	height: 25.6vw;
+}
+
 header *{
 	background-color: black;
 	margin: 0vw;
@@ -150,6 +154,11 @@ body{
 
 .artist-wrapper{
 	display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
 }
 
 .artist-wrapper .sumbnail{
