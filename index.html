@@ -23,13 +23,14 @@
 	<!--CSS-->
 	<link rel="stylesheet" href="smartphone.css" type="text/css" media="screen and (max-width: 750px)">
 	<link rel="stylesheet" href="pc.css" type="text/css" media="screen and (min-width: 751px)">
-	<!-- <link rel="stylesheet" href="colorbox.css" type="text/css">
-	<link rel="stylesheet" href="./bxslider/dist/jquery.bxslider.css" type="text/css"> -->
 
 	<!-- まだない -->
 	<!-- <link rel="shortcut icon" href="images/icon.ico"> -->
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<!--JS-->
+	<script type="text/javascript" src="main.js"></script>
+
 	<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 	<!--user agent-->
@@ -48,12 +49,12 @@
 
 <body>
 	<header>
-		<div id="title"><h1><a href="index.html">OPEN STUDIO 2019</a></h1></div>
+		<div id="title"><h1>OPEN STUDIO 2019</h1></div>
 		<ul id="menu">
-			<li class="header-button" id="header-top"><a href="xxx.html">Top</a></li>
-			<li class="header-button" id="header-about"><a href="xxx.html">About</a></li>
-			<li class="header-button" id="header-exhibitors"><a href="xxx.html">Exhibitors</a></li>
-			<li class="header-button" id="header-access"><a href="xxx.html">Access</a></li>
+			<li class="header-button" id="header-top">Top</li>
+			<li class="header-button" id="header-about">About</li>
+			<li class="header-button" id="header-exhibitors">Exhibitors</li>
+			<li class="header-button" id="header-access">Access</li>
 		</ul>
 	</header>
 
@@ -71,16 +72,22 @@
 	</div>
 
 	<div id="modals-wrapper">
+		<div id="modals-bg"></div>
 
 		<div class="artist-modal" id="01_asao_modal">
 			<div class="first-column">
 				<div class="modal-lab">高山明研究室</div>
-				<img src="" class="back-button"></img>
+				<img src="images/UI/close.png" class="back-button"></img>
 			</div>
 
 			<div class="second-column">
 				<div class="modal-nameJP">浅尾 鷹也</div>
 				<div class="modal-nameEN">Takaya Asao</div>
+			</div>
+
+			<div class="work">
+				<img src="artistInfomation/M2/01_asao/01.png" class="work-photo">
+				<p class="work-title">sights seeing(2018)</p>
 			</div>
 
 			<div class="work">
@@ -94,6 +101,35 @@
 				<div class="link"><a href="https://vimeo.com/user15242827">https://vimeo.com/user15242827</a></div>
 			</div>
 		</div>
+
+		<div class="artist-modal" id="02_usami_modal">
+			<div class="first-column">
+				<div class="modal-lab">高山明研究室</div>
+				<img src="images/UI/close.png" class="back-button"></img>
+			</div>
+
+			<div class="second-column">
+				<div class="modal-nameJP">浅尾 鷹也</div>
+				<div class="modal-nameEN">Takaya Asao</div>
+			</div>
+
+			<div class="work">
+				<img src="artistInfomation/M2/02_usami/01.png" class="work-photo">
+				<p class="work-title">sights seeing(2018)</p>
+			</div>
+
+			<div class="work">
+				<img src="artistInfomation/M2/02_usami/01.png" class="work-photo">
+				<p class="work-title">sights seeing(2018)</p>
+			</div>
+
+			<div class="footer-column">
+				<p class="birth-info">1994年 鹿児島県出身</p>
+				<p class="alma-mater">九州産業大学芸術学部デザイン</p>
+				<div class="link"><a href="https://vimeo.com/user15242827">https://vimeo.com/user15242827</a></div>
+			</div>
+		</div>
+		
 
 	</div>
 
@@ -194,7 +230,7 @@
 					<p class="lab">桐山孝司研究室</p>
 					<div class="name">
 						<p class="nameJP">小林 颯</p>
-						<p class="nameEN">Kobayashitttt</p>
+						<p class="nameEN">Hayate Kobayashi</p>
 					</div>
 					<div class="modalButton" id="07_kobayashi">More infomation</div>
 				</div>
@@ -352,7 +388,7 @@
 				<div class="infoText">
 					<p class="lab"> </p>
 					<div class="name">
-						<p class="nameJP">姜 〇〇</p>
+						<p class="nameJP">姜 賢植</p>
 						<p class="nameEN">Hyeonsik Kang</p>
 					</div>
 					<div class="modalButton" id="04_kang">More infomation</div>
@@ -394,7 +430,7 @@
 				<div class="infoText">
 					<p class="lab"> </p>
 					<div class="name">
-						<p class="nameJP">椎名 〇〇</p>
+						<p class="nameJP">椎名 悠香</p>
 						<p class="nameEN">Yuka Shiina</p>
 					</div>
 					<div class="modalButton" id="07_shiina">More infomation</div>
@@ -408,7 +444,7 @@
 				<div class="infoText">
 					<p class="lab"> </p>
 					<div class="name">
-						<p class="nameJP">宍倉 〇〇</p>
+						<p class="nameJP">宍倉 志信</p>
 						<p class="nameEN">Shinobu Shishikura</p>
 					</div>
 					<div class="modalButton" id="08_shishikura">More infomation</div>
@@ -487,9 +523,9 @@
 	<footer>
 		<div id="footer-wrapper">
 			<div id="icons">
-				<img src="images/icon/twitter.png">
-				<img src="images/icon/twitter.png">
-				<img src="images/icon/twitter.png">
+				<img src="images/icon/twitter.png" id="twitter-button">
+				<img src="images/icon/twitter.png" id="facebook-button">
+				<img src="images/icon/twitter.png" id="instagram-button">
 			</div>
 			<p id="credit">©東京藝術大学大学院 映像研究科 メディア映像専攻 13・14期生</p>
 		</div>

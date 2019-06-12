@@ -7,7 +7,7 @@ header{
 	height: 25.6vw;
 	width: 100vw;
 	position: fixed;
-	z-index: 20;
+	z-index: 2;
 }
 
 header *{
@@ -38,13 +38,13 @@ ul .header-button{
 	list-style-type:none;		/*リストマーカー無しにする*/
 }
 
-ul .header-button a{
+ul .header-button{
 	vertical-align: middle;
 	line-height: 12.8vw;
 	font-size: 3.75vw;
 }
 
-ul .header-button a:hover{
+ul .header-button:hover{
 	font-weight: bold;
 	text-decoration: underline;
 }
@@ -92,12 +92,21 @@ body{
 #modals-wrapper{
 	width: 100vw;
 	height: 100vh;
-	background: #00000088;
 	margin: 0;
 	padding: 0;
 	z-index: 8;
 	position: fixed;
 	top: 0px;
+	background: #00000088;
+	max-height: 100vh;
+	overflow: auto;
+}
+
+#modals-wrapper #modals-bg{
+	width: 100vw;
+	height: 100vh;
+	background: #00000000;
+	position: fixed;
 }
 
 #modals-wrapper .artist-modal{
@@ -107,15 +116,31 @@ body{
 	border-radius: 2.8vw;
 	margin-top: 31.2vw;
 	margin-left: 2.8vw;
+	margin-bottom: 31.2vw;
+	position: absolute;
+	z-index: 9;
 }
 
 #modals-wrapper .artist-modal>*{
 	padding: 2.6vw 0vw;
 }
 
+.first-column{
+	height: 6.67vw;
+}
+
+.back-button{
+	width: 6.67vw;
+	height: 6.67vw;
+	display: inline-block;
+	float: right;
+}
+
 .modal-lab{
 	font-size: 3.45vw;
 	font-weight: bold;
+	display: inline-block;
+	float: left;
 }
 
 .modal-nameJP{

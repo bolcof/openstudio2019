@@ -8,7 +8,7 @@ header{
 	background-color: black;
 	width: 100vw;
 	position: fixed;
-	z-index: 20;
+	z-index: 2;
 }
 
 header *{
@@ -48,12 +48,12 @@ ul .header-button{
 	padding: 0vw 2.5vw;
 }
 
-ul .header-button a{
+ul .header-button{
 	vertical-align: middle;
 	font-size: 1.3vw;
 }
 
-ul .header-button a:hover{
+ul .header-button:hover{
 	font-weight: bold;
 	text-decoration: underline;
 }
@@ -71,7 +71,7 @@ body{
 .top-wrapper{
 	padding-top: 6vw;
 }
-}
+
 #key-visual{
 	width: 100%;
 	display: block;
@@ -101,60 +101,96 @@ body{
 #modals-wrapper{
 	width: 100vw;
 	height: 100vh;
-	background: #00000088;
 	margin: 0;
 	padding: 0;
 	z-index: 8;
 	position: fixed;
 	top: 0px;
+	background: #00000088;
+	max-height: 100vh;
+	overflow: auto;
+}
+
+#modals-wrapper #modals-bg{
+	width: 100vw;
+	height: 100vh;
+	background: #00000000;
+	position: fixed;
 }
 
 #modals-wrapper .artist-modal{
-	width: 84vw;
-	padding: 5.2vw;
+	width: 66.8vw;
+	padding: 1.5vw 3.5vw;
 	background: #FFF;
 	border-radius: 2.8vw;
-	margin-top: 31.2vw;
-	margin-left: 2.8vw;
+	margin-top: 9vw;
+	margin-left: 13.1vw;
+	position: absolute;
+	z-index: 9;
 }
 
 #modals-wrapper .artist-modal>*{
-	padding: 2.6vw 0vw;
+	padding: 1vw 0vw;
+}
+
+.first-column{
+	height: 3.333vw;
+}
+
+.back-button{
+	width: 3.333vw;
+	height: 3.333vw;
+	display: inline-block;
+	float: right;
 }
 
 .modal-lab{
-	font-size: 3.45vw;
+	font-size: 1.4vw;
 	font-weight: bold;
+	display: inline-block;
+	float: left;
 }
 
 .modal-nameJP{
-	font-size: 4vw;
+	font-size: 1.9vw;
 	font-weight: bold;
 }
 
 .modal-nameEN{
-	font-size: 3.45vw;
+	font-size: 1.4vw;
 	font-weight: bold;
 }
 
+.work{
+	width: 50%;
+	margin: 0 0 0 auto;
+}
+
 .work-photo{
-	width: 84vw;
+	width: 30vw;
+	float: right;
 }
 
 .work-title{
-	font-size: 3.45vw;
+	font-size: 1.4vw;
 	margin: 0.5em 0vw;
 	text-align: right;;
 }
 
+.footer-column{
+	display: inline-block;
+	position: absolute;
+	top: 13.8vw;
+}
+
 .footer-column p{
-	font-size: 3.45vw;
+	font-size: 1.4vw;
 	margin: 0;
 }
 .footer-column .link{
-	font-size: 3.45vw;
+	font-size: 1.4vw;
 	padding-top: 3vw;
-	text-decoration: underline;;
+	text-decoration: underline;
 }
 
 /*出展者情報*/
