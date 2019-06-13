@@ -119,12 +119,13 @@ body{
 }
 
 #modals-wrapper .artist-modal{
-	width: 66.8vw;
-	padding: 1.5vw 3.5vw;
+	width: 66.6vw;
+	padding: 1.5vw 4vw;
 	background: #FFF;
 	border-radius: 2.8vw;
 	margin-top: 9vw;
-	margin-left: 13.1vw;
+	margin-bottom: 9vw;
+	margin-left: 12.6vw;
 	position: absolute;
 	z-index: 9;
 }
@@ -167,8 +168,9 @@ body{
 }
 
 .work-photo{
-	width: 30vw;
-	float: right;
+	display: block;
+	width: 31vw;
+	margin: 0 0 0 auto;
 }
 
 .work-title{

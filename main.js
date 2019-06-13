@@ -41,6 +41,78 @@ $(function(){
 		$("#02_usami_modal").fadeIn(500);
 	});
 
+	$("#03_endo").click(function(){
+  		$('body').css('overflow', 'hidden');
+		$("#modals-wrapper").fadeIn(500);
+		$("#03_endo_modal").fadeIn(500);
+	});
+
+	$("#04_oikawa").click(function(){
+  		$('body').css('overflow', 'hidden');
+		$("#modals-wrapper").fadeIn(500);
+		$("#04_oikawa_modal").fadeIn(500);
+	});
+
+	$("#05_okada").click(function(){
+  		$('body').css('overflow', 'hidden');
+		$("#modals-wrapper").fadeIn(500);
+		$("#05_okada_modal").fadeIn(500);
+	});
+
+	$("#06_kanai").click(function(){
+  		$('body').css('overflow', 'hidden');
+		$("#modals-wrapper").fadeIn(500);
+		$("#06_kanai_modal").fadeIn(500);
+	});
+
+	$("#07_kobayashi").click(function(){
+  		$('body').css('overflow', 'hidden');
+		$("#modals-wrapper").fadeIn(500);
+		$("#07_kobayashi_modal").fadeIn(500);
+	});
+
+	$("#08_shikichi").click(function(){
+  		$('body').css('overflow', 'hidden');
+		$("#modals-wrapper").fadeIn(500);
+		$("#08_shikichi_modal").fadeIn(500);
+	});
+
+	$("#09_shimizu").click(function(){
+  		$('body').css('overflow', 'hidden');
+		$("#modals-wrapper").fadeIn(500);
+		$("#09_shimizu_modal").fadeIn(500);
+	});
+
+	$("#10_shimizu").click(function(){
+  		$('body').css('overflow', 'hidden');
+		$("#modals-wrapper").fadeIn(500);
+		$("#10_shimizu_modal").fadeIn(500);
+	});
+
+	$("#11_shin_usami").click(function(){
+  		$('body').css('overflow', 'hidden');
+		$("#modals-wrapper").fadeIn(500);
+		$("#11_shin_modal").fadeIn(500);
+	});
+
+	$("#12_maeda").click(function(){
+  		$('body').css('overflow', 'hidden');
+		$("#modals-wrapper").fadeIn(500);
+		$("#12_maeda_modal").fadeIn(500);
+	});
+
+	$("#13_li").click(function(){
+  		$('body').css('overflow', 'hidden');
+		$("#modals-wrapper").fadeIn(500);
+		$("#12_li_modal").fadeIn(500);
+	});
+
+	$("#14_yoshida").click(function(){
+  		$('body').css('overflow', 'hidden');
+		$("#modals-wrapper").fadeIn(500);
+		$("#14_yoshida_modal").fadeIn(500);
+	});
+
 
 	$("#modals-bg").click(function(){
   		$('body').css('overflow', 'visible');
