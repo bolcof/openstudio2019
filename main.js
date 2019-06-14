@@ -1,4 +1,5 @@
 $(function(){
+	
 	//menu bar
 	$("#title").click(function(){
 		$(window).scrollTop(0);
@@ -113,13 +114,20 @@ $(function(){
 		$("#14_yoshida_modal").fadeIn(500);
 	});
 
-
 	$("#modals-bg").click(function(){
   		$('body').css('overflow', 'visible');
 		$(".artist-modal").fadeOut(500);
 		$("#modals-wrapper").fadeOut(500);
 	});
-	$(".back-button").click(function(){
+
+	//iOSだと動かない疑惑
+	$(document).on('click', '.back-button', function(){
+  		$('body').css('overflow', 'visible');
+		$(".artist-modal").fadeOut(500);
+		$("#modals-wrapper").fadeOut(500);
+	});
+	$(".back-button").on("click", function(){
+		alert("aaa");
   		$('body').css('overflow', 'visible');
 		$(".artist-modal").fadeOut(500);
 		$("#modals-wrapper").fadeOut(500);
