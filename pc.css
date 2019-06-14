@@ -3,63 +3,10 @@ a {
   text-decoration: none;
 }
 
-header{
-	height: 6vw;
-	background-color: black;
-	width: 100vw;
-	position: fixed;
-	z-index: 2;
-}
-
-header *{
-	margin: 0vw;
-}
-
-#title{
-	display: inline-block;
-	width: 46.5vw;
-	height: 6vw;
-	line-height: 6vw;
-}
-
-#title h1{
-	color: white;
-	text-align: center;
-	vertical-align: bottom;
-	font-size: 2vw;
-	letter-spacing: 0.15em;
-}
-
-#menu{
-	padding: 0vw;
-	display: inline-block;
-	float: right;
-	height: 6vw;
-	line-height: 6vw;
-}
-
-ul .header-button{
-	color: white;
-	text-align: center;
-	list-style: none;
-	float:left;			/*リスト項目を横に並べる*/
-	display:inline;			/*リスト項目をインライン表示にする*/
-	list-style-type: none;		/*リストマーカー無しにする*/
-	padding: 0vw 2.5vw;
-}
-
-ul .header-button{
-	vertical-align: middle;
-	font-size: 1.3vw;
-}
-
-ul .header-button:hover{
-	font-weight: bold;
-	text-decoration: underline;
-}
 
 body{
 	margin: 0vw;
+	font-family: "ヒラギノ角ゴ Pro W3";
 }
 
 .element{
@@ -68,18 +15,21 @@ body{
 
 
 /*トップ*/
-.top-wrapper{
-	padding-top: 6vw;
+.title-wrapper{
+	background: #FAFAFA;
 }
 
-#key-visual{
-	width: 100%;
-	display: block;
-}
+#subtitle{
+	font-size: 1.2vw;
+	letter-spacing: 0.15em;
+	line-height: 1.7em;
+	text-align: justify;
+	font-feature-settings: "palt";
+	margin: 3.5vw 15vw;}
 
 /*ステートメント*/
 .about-wrapper{
-	background: #FAFAFA;
+	background: #FFFFFF;
 }
 
 .element #statement{
@@ -97,250 +47,21 @@ body{
 	color: black;
 }
 
-/*モーダル*/
-#modals-wrapper{
-	width: 100vw;
-	height: 100vh;
-	margin: 0;
-	padding: 0;
-	z-index: 8;
-	position: fixed;
-	top: 0px;
-	background: #00000088;
-	max-height: 100vh;
-	overflow: auto;
-}
 
-#modals-wrapper #modals-bg{
-	width: 100vw;
-	height: 100vh;
-	background: #00000000;
-	position: fixed;
-}
-
-#modals-wrapper .artist-modal{
-	width: 66.6vw;
-	padding: 1.5vw 4vw;
-	background: #FFF;
-	border-radius: 2.8vw;
-	margin-top: 9vw;
-	margin-bottom: 9vw;
-	margin-left: 12.6vw;
-	position: absolute;
-	z-index: 9;
-}
-
-#modals-wrapper .artist-modal>*{
-	padding: 1vw 0vw;
-}
-
-.first-column{
-	height: 3.333vw;
-}
-
-.back-button{
-	width: 3.333vw;
-	height: 3.333vw;
-	display: inline-block;
-	float: right;
-}
-
-.modal-lab{
-	font-size: 1.4vw;
-	font-weight: bold;
-	display: inline-block;
-	float: left;
-}
-
-.modal-nameJP{
-	font-size: 1.9vw;
-	font-weight: bold;
-}
-
-.modal-nameEN{
-	font-size: 1.4vw;
-	font-weight: bold;
-}
-
-.work{
-	width: 50%;
-	margin: 0 0 0 auto;
-}
-
-.work-photo{
-	display: block;
-	width: 31vw;
-	margin: 0 0 0 auto;
-}
-
-.work-title{
-	font-size: 1.4vw;
-	margin: 0.5em 0vw;
-	text-align: right;;
-}
-
-.footer-column{
-	display: inline-block;
-	position: absolute;
-	top: 13.8vw;
-}
-
-.footer-column p{
-	font-size: 1.4vw;
-	margin: 0;
-}
-.footer-column .link{
-	font-size: 1.4vw;
-	padding-top: 3vw;
-	text-decoration: underline;
-}
-
-/*出展者情報*/
-.element .grades{
-	margin: 9.333vw 15vw 9.333vw 15vw;
-	padding: 0vw 0vw 0vw 0vw;
-}
-
-/*ゴミ実装*/
-.element .m2{
-	height: 100vw;
-}
-.element .m1{
-	height: 85vw;
-}
-
-.element .grades h2{
-	font-size: 1.3vw;
-	color: black;
-}
-
-.artist-wrapper{
-	display: flex;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    float: left;
-	width: 50%;
-}
-
-.artist-wrapper .sumbnail{
-	display: inline-block;
-	width: 55%;
-	margin: 1vw 0vw;
-	float: left;
-}
-
-.artist-wrapper .sumbnail img{
-	width: 100%;
-}
-
-.artist-wrapper .infoText{
-	width: 45%;
-	margin: 1vw 0vw;
-	-ms-flex-pack: distribute;
-	justify-content: space-around;
-
-  	display:-webkit-box;
-  	display:-ms-flexbox;
-  	display:flex;
-   	flex-flow: column;
-}
-
-.infoText *{
-  	vertical-align: top;
-  	margin: 0vw;
-}
-
-.infoText .lab{
-	font-size: 1.2vw;
-	font-weight: bold;
-	padding: 0.45vw 0vw 0.45vw 1.2vw;
-}
-
-.infoText .name{
-	padding: 0.45vw 0vw 0.45vw 1.2vw;
-}
-
-.infoText .name .nameJP{
-	font-size: 1.8vw;
-	font-weight: bold;
-}
-
-.infoText .name .nameEN{
-	font-size: 1.2vw;
-	font-weight: bold;
-}
-
-.infoText .modalButton{
-	font-size: 1.2vw;
-	padding: 0.45vw 0vw 0.45vw 1.2vw;
-	text-decoration: underline;
-}
-
-
-
-/*Access*/
-.access-wrapper{
+.info-wrapper{
 	background: #FAFAFA;
-	padding-bottom: 6vw;
 }
 
-.access-wrapper #map{
-	margin: 2vw 15vw 2vw 15vw;
+.element #info{
+	font-size: 1.2vw;
 	letter-spacing: 0.1em;
-	line-height: 1.5;
+	line-height: 1.7em;
+	font-feature-settings: "palt";
+	margin: 3.5vw 15vw;
 }
 
-.access-wrapper #map iframe{
-	margin: 1vw 0vw;
-	width: 100%;
-	height: 48vw;
-}
-
-.access-wrapper #map #place-name{
-	font-size: 1.7vw;
-	font-weight: bold;
-	margin: 1vw 0vw;
-}
-
-.access-wrapper #map #place-address{
-	font-size: 1.4vw;
-	margin: 0.5vw 0vw;
-}
-
-.access-wrapper #map #place-description{
-	font-size: 1.4vw;
-	margin: 0.5vw 0vw;
-}
-
-
-
-/*フッター*/
-footer{
-	height: 14vw;
-	background: black;
-	
-	-ms-flex-pack: distribute;
-	justify-content: space-around;
-
-  	display:-webkit-box;
-  	display:-ms-flexbox;
-  	display:flex;
-   	flex-flow: column;
-}
-
-footer #footer-wrapper{
-	margin: 0vw 7vw;
-}
-
-footer div #icons img{
-	width: 3vw;
-	padding-right: 1.2vw;
-}
-
-footer div #credit{
-	color: white;
-	font-size: 1.03vw;
+.element h1{
+	font-size: 1.8vw;
+	margin: 3.5vw 0vw 2vw 15vw;
+	color: black;
 }
