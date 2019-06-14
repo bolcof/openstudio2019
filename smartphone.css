@@ -18,8 +18,12 @@ a {
 	background: #FAFAFA;
 }
 
+#OS{
+	font-size: 22pt;
+}
+
 #subtitle{
-	font-size: 3.45vw;
+	font-size: 14pt;
 	letter-spacing: 0.15em;
 	line-height: 1.7em;
 	text-align: justify;
@@ -33,7 +37,7 @@ a {
 }
 
 .element #statement{
-	font-size: 3.45vw;
+	font-size: 14pt;
 	letter-spacing: 0.15em;
 	line-height: 1.7em;
 	text-align: justify;
@@ -42,7 +46,7 @@ a {
 }
 
 .element h1{
-	font-size: 4vw;
+	font-size: 18pt;
 	margin: 9.333vw 0vw 2.667vw 2.667vw;
 	color: black;
 }
@@ -53,15 +57,11 @@ a {
 }
 
 .element #info{
-	font-size: 3.45vw;
+	font-size: 14pt;
 	letter-spacing: 0.1em;
 	line-height: 1.7em;
 	font-feature-settings: "palt";
 	margin: 9.333vw 2.667vw;
 }
 
-.element h1{
-	font-size: 4vw;
-	margin: 9.333vw 0vw 2.667vw 2.667vw;
-	color: black;
-}
+
