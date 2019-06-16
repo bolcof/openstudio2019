@@ -113,6 +113,78 @@ $(function(){
 		$("#14_yoshida_modal").fadeIn(500);
 	});
 
+	//M1
+	$(".grades").on('click', '#01_osato', function(){
+  		$('body').css('overflow', 'visible');
+		$("#modals-wrapper").fadeIn(500);
+		$("#01_osato_modal").fadeIn(500);
+	});
+
+	$(".grades").on('click', '#02_otaki', function(){
+  		$('body').css('overflow', 'visible');
+		$("#modals-wrapper").fadeIn(500);
+		$("#02_otaki_modal").fadeIn(500);
+	});
+
+	$(".grades").on('click', '#03_oka', function(){
+  		$('body').css('overflow', 'visible');
+		$("#modals-wrapper").fadeIn(500);
+		$("#03_oka_modal").fadeIn(500);
+	});
+
+	$(".grades").on('click', '#04_kang', function(){
+  		$('body').css('overflow', 'visible');
+		$("#modals-wrapper").fadeIn(500);
+		$("#04_kang_modal").fadeIn(500);
+	});
+
+	$(".grades").on('click', '#05_koga', function(){
+  		$('body').css('overflow', 'visible');
+		$("#modals-wrapper").fadeIn(500);
+		$("#05_koga_modal").fadeIn(500);
+	});
+
+	$(".grades").on('click', '#06_kobayashi', function(){
+  		$('body').css('overflow', 'visible');
+		$("#modals-wrapper").fadeIn(500);
+		$("#06_kobayashi_modal").fadeIn(500);
+	});
+
+	$(".grades").on('click', '#07_shiina', function(){
+  		$('body').css('overflow', 'visible');
+		$("#modals-wrapper").fadeIn(500);
+		$("#07_shiina_modal").fadeIn(500);
+	});
+
+	$(".grades").on('click', '#08_shishikura', function(){
+  		$('body').css('overflow', 'visible');
+		$("#modals-wrapper").fadeIn(500);
+		$("#08_shishikura_modal").fadeIn(500);
+	});
+
+	$(".grades").on('click', '#09_shimura', function(){
+  		$('body').css('overflow', 'visible');
+		$("#modals-wrapper").fadeIn(500);
+		$("#09_shimura_modal").fadeIn(500);
+	});
+
+	$(".grades").on('click', '#10_seko', function(){
+  		$('body').css('overflow', 'visible');
+		$("#modals-wrapper").fadeIn(500);
+		$("#10_seko_modal").fadeIn(500);
+	});
+
+	$(".grades").on('click', '#11_hirai', function(){
+  		$('body').css('overflow', 'visible');
+		$("#modals-wrapper").fadeIn(500);
+		$("#11_hirai_modal").fadeIn(500);
+	});
+
+	$(".grades").on('click', '#12_hukuhara', function(){
+  		$('body').css('overflow', 'visible');
+		$("#modals-wrapper").fadeIn(500);
+		$("#12_hukuhara_modal").fadeIn(500);
+	});
 	//iOSだと動かない疑惑
 	$("#modals-wrapper").on('click', '.back-button', function(){
   		$('body').css('overflow', 'visible');

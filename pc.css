@@ -64,6 +64,7 @@ body{
 
 .element{
 	padding: 3.5vw 2vw;
+	overflow: auto;
 }
 
 
@@ -199,14 +200,7 @@ body{
 .element .grades{
 	margin: 9.333vw 15vw 9.333vw 15vw;
 	padding: 0vw 0vw 0vw 0vw;
-}
-
-/*ゴミ実装*/
-.element .m2{
-	height: 92.4vw;
-}
-.element .m1{
-	height: 82vw;
+	overflow: auto;
 }
 
 .element .grades h2{
@@ -222,12 +216,13 @@ body{
     display: -o-flex;
     display: flex;
     float: left;
-	width: 49.5%;
+	width: 50%;
 }
 
 .artist-wrapper .sumbnail{
 	display: inline-block;
 	width: 55%;
+	height: 12.3vw;
 	margin: 1vw 0vw;
 	float: left;
 }
