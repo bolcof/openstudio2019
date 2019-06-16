@@ -30,7 +30,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<!--JS-->
 	<script type="text/javascript" src="main.js"></script>
-	<script type="text/javascript" src="modalMaker.js"></script>
+	<script type="text/javascript" src="modalMaker.js"></script> 
 
 	<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
@@ -61,6 +61,13 @@
 
 	<div class="top-wrapper">
 		<img src="images/sample/pose.png" id="key-visual">
+		<table>
+        	<caption>紫陽花の名所</caption>
+        	<thead>
+            	<tr><th>名前</th><th>場所</th><th>種類</th><th>株数</th></tr>
+        	</thead>
+        	<tbody id='csv-body' />
+    	</table>
 	</div>
 
 	<div class="about-wrapper element">
@@ -82,203 +89,7 @@
 		<h1>Exhibitors | 出展作家</h1>
 		<div class="grades m2">
 			<h2>Master2 | 修士２年</h2>
-
-			<div class="artist-wrapper">
-				<div class="sumbnail" >
-					<img src="artistInfomation/M2/01_asao/sumbnail.png">
-				</div>
-				<div class="infoText">
-					<p class="lab">高山明研究室</p>
-					<div class="name">
-						<p class="nameJP">浅尾 鷹也</p>
-						<p class="nameEN">Takaya Asao</p>
-					</div>
-					<div class="modalButton" id="01_asao">More infomation</div>
-				</div>
-			</div>
-
-			<div class="artist-wrapper">
-				<div class="sumbnail" >
-					<img src="artistInfomation/M2/01_asao/sumbnail.png">
-				</div>
-				<div class="infoText">
-					<p class="lab">桂英史研究室</p>
-					<div class="name">
-						<p class="nameJP">宇佐美 奈緒</p>
-						<p class="nameEN">Nao Usami</p>
-					</div>
-					<div class="modalButton" id="02_usami">More infomation</div>
-				</div>
-			</div>
-
-			<div class="artist-wrapper">
-				<div class="sumbnail" >
-					<img src="artistInfomation/M2/01_asao/sumbnail.png">
-				</div>
-				<div class="infoText">
-					<p class="lab">佐藤雅彦研究室</p>
-					<div class="name">
-						<p class="nameJP">遠藤 紘也</p>
-						<p class="nameEN">Hiroya Endo</p>
-					</div>
-					<div class="modalButton" id="03_endo">More infomation</div>
-				</div>
-			</div>
-
-			<div class="artist-wrapper">
-				<div class="sumbnail" >
-					<img src="artistInfomation/M2/01_asao/sumbnail.png">
-				</div>
-				<div class="infoText">
-					<p class="lab">高山明研究室</p>
-					<div class="name">
-						<p class="nameJP">及川 菜摘</p>
-						<p class="nameEN">Natsumi Oikawa</p>
-					</div>
-					<div class="modalButton" id="04_oikawa">More infomation</div>
-				</div>
-			</div>
-
-			<div class="artist-wrapper">
-				<div class="sumbnail" >
-					<img src="artistInfomation/M2/01_asao/sumbnail.png">
-				</div>
-				<div class="infoText">
-					<p class="lab">桂英史研究室</p>
-					<div class="name">
-						<p class="nameJP">岡田 直己</p>
-						<p class="nameEN">Naoki Okada</p>
-					</div>
-					<div class="modalButton" id="05_okada">More infomation</div>
-				</div>
-			</div>
-
-			<div class="artist-wrapper">
-				<div class="sumbnail" >
-					<img src="artistInfomation/M2/01_asao/sumbnail.png">
-				</div>
-				<div class="infoText">
-					<p class="lab">佐藤雅彦研究室</p>
-					<div class="name">
-						<p class="nameJP">金井 啓太</p>
-						<p class="nameEN">Keita Kanai</p>
-					</div>
-					<div class="modalButton" id="06_kanai">More infomation</div>
-				</div>
-			</div>
-
-			<div class="artist-wrapper">
-				<div class="sumbnail" >
-					<img src="artistInfomation/M2/01_asao/sumbnail.png">
-				</div>
-				<div class="infoText">
-					<p class="lab">桐山孝司研究室</p>
-					<div class="name">
-						<p class="nameJP">小林 颯</p>
-						<p class="nameEN">Hayate Kobayashi</p>
-					</div>
-					<div class="modalButton" id="07_kobayashi">More infomation</div>
-				</div>
-			</div>
-
-			<div class="artist-wrapper">
-				<div class="sumbnail" >
-					<img src="artistInfomation/M2/01_asao/sumbnail.png">
-				</div>
-				<div class="infoText">
-					<p class="lab">高山明研究室</p>
-					<div class="name">
-						<p class="nameJP">敷地 理</p>
-						<p class="nameEN">Osamu Shikichi</p>
-					</div>
-					<div class="modalButton" id="08_shikichi">More infomation</div>
-				</div>
-			</div>
-
-			<div class="artist-wrapper">
-				<div class="sumbnail" >
-					<img src="artistInfomation/M2/01_asao/sumbnail.png">
-				</div>
-				<div class="infoText">
-					<p class="lab">桐山孝司研究室</p>
-					<div class="name">
-						<p class="nameJP">清水 愛恵</p>
-						<p class="nameEN">Manae Shimizu</p>
-					</div>
-					<div class="modalButton" id="09_shimizu">More infomation</div>
-				</div>
-			</div>
-
-			<div class="artist-wrapper">
-				<div class="sumbnail" >
-					<img src="artistInfomation/M2/01_asao/sumbnail.png">
-				</div>
-				<div class="infoText">
-					<p class="lab">桐山孝司研究室</p>
-					<div class="name">
-						<p class="nameJP">清水 潤</p>
-						<p class="nameEN">Mitsuru Shimizu</p>
-					</div>
-					<div class="modalButton" id="10_shimizu">More infomation</div>
-				</div>
-			</div>
-
-			<div class="artist-wrapper">
-				<div class="sumbnail" >
-					<img src="artistInfomation/M2/01_asao/sumbnail.png">
-				</div>
-				<div class="infoText">
-					<p class="lab">畠山直哉研究室</p>
-					<div class="name">
-						<p class="nameJP">申 晛湜</p>
-						<p class="nameEN">Hyunsik Shin</p>
-					</div>
-					<div class="modalButton" id="11_shin">More infomation</div>
-				</div>
-			</div>
-
-			<div class="artist-wrapper">
-				<div class="sumbnail" >
-					<img src="artistInfomation/M2/01_asao/sumbnail.png">
-				</div>
-				<div class="infoText">
-					<p class="lab">桂英史研究室</p>
-					<div class="name">
-						<p class="nameJP">前田 博雅</p>
-						<p class="nameEN">Hiromasa Maeda</p>
-					</div>
-					<div class="modalButton" id="12_maeda">More infomation</div>
-				</div>
-			</div>
-
-			<div class="artist-wrapper">
-				<div class="sumbnail" >
-					<img src="artistInfomation/M2/01_asao/sumbnail.png">
-				</div>
-				<div class="infoText">
-					<p class="lab">高山明研究室</p>
-					<div class="name">
-						<p class="nameJP">李 和晋</p>
-						<p class="nameEN">Lee Hwajin</p>
-					</div>
-					<div class="modalButton" id="13_li">More infomation</div>
-				</div>
-			</div>
-
-			<div class="artist-wrapper">
-				<div class="sumbnail" >
-					<img src="artistInfomation/M2/01_asao/sumbnail.png">
-				</div>
-				<div class="infoText">
-					<p class="lab">畠山直哉研究室</p>
-					<div class="name">
-						<p class="nameJP">吉田 真也</p>
-						<p class="nameEN">Shinya Yoshida</p>
-					</div>
-					<div class="modalButton" id="14_yoshida">More infomation</div>
-				</div>
-			</div>
-
+			
 		</div>
 		<div class="grades m1">
 
