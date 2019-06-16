@@ -118,8 +118,8 @@ $(function(){
 
 
  		$(".m1").append(
- 			'<div class="artist-wrapper  id="'
- 			+ id + '"">\n<div class="sumbnail" >\n<img src="artistInfomation/sumbnail/M1/'
+ 			'<div class="artist-wrapper" id="'
+ 			+ id + '">\n<div class="sumbnail" >\n<img src="artistInfomation/sumbnail/M1/'
 			+ id + '/01.jpg">\n</div>\n<div class="infoText">\n<p class="lab">'
 			+ lab + '</p>\n<div class="name">\n<p class="nameJP">'
 			+ nameJP + '</p>\n<p class="nameEN">'
