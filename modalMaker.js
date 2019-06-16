@@ -17,18 +17,18 @@ $(function(){
  			];
 
  	var info_M1 = [
- 				["01_osato",		"",		"大里　淳",		"Jun Osato",		"九州産業大学芸術学部デザイン学科卒",			"https://twitter.com/sotky_a"],
- 				["02_otaki",		"",		"大滝 彩加",		"Ayaka Otaki",		"東京藝術大学 美術学部 デザイン科卒",			"http://naousami.com"],
- 				["03_oka",			"",		"岡 千穂",		"Chiho Oka",		"東京造形大学 造形学部 デザイン学科 映画専攻卒",	"https://natsumioikawa.tumblr.com/"],
- 				["04_kang",			"",		"姜 賢植",		"Hyeonsik Kang",	"多摩美術大学 美術学部 統合デザイン学科卒",		"http://hiroya-endo.net/"],
- 				["05_koga",			"",		"古閑 慶治",		"Keiji Koga",		"東京藝術大学 美術学部 デザイン科卒",			"http://bat-headache-ouchouchouch.tumblr.com/"],
- 				["06_kobayashi",	"",		"小林 舞衣",		"Mai Kobayashi",		"筑波大学 情報学群卒",							"https://volkhov.tumblr.com/"],
- 				["07_shiina",		"",		"椎名 悠香",		"Yuka Shiina",	"慶應義塾大学 環境情報学部 環境情報学科卒",		"https://vimeo.com/user15242827"],	
- 				["08_shishikura",	"",		"宍倉 志信",		"Shinobu Shishikura",	"武蔵野美術大学 造形学部 彫刻学科卒",			"https://mumumubrothers.wixsite.com/osamu-shikichi"],
- 				["09_shimura",		"",		"志村 茉那美",	"Manami Shimura",	"首都大学東京 システムデザイン学部 インダストリアルアートコース卒",	"http://manaepf-tokyo.com"],
- 				["10_seko",			"",		"瀬古 瑞歩",		"Mizuho Seko",	"東京藝術大学 美術学部 先端芸術表現科卒",			""],
- 				["11_hirai",		"",		"平井 亨季",		"Koki Hirai",		"早稲田大学 文化構想学部 表象・メディア論系卒",	""],
- 				["12_hukuhara",		"",		"福原 翼",		"Tsubasa Hukuhara",	"武蔵野美術大学 造形学部 映像学科卒",			""]
+ 				["01_osato",		"",		"大里　淳",		"Jun Osato",		"東京藝術大学 美術学部 デザイン科卒",			""],
+ 				["02_otaki",		"",		"大滝 彩加",		"Ayaka Otaki",		"多摩美術大学 美術学部 絵画学科 油画専攻卒",		"http://otakiayaka.tumblr.com"],
+ 				["03_oka",			"",		"岡 千穂",		"Chiho Oka",		"東京藝術大学 音楽学部 音楽環境創造科卒",			""],
+ 				["04_kang",			"",		"姜 賢植",		"Hyeonsik Kang",	"東京藝術大学 音楽学部 音楽環境創造科卒",			""],
+ 				["05_koga",			"",		"古閑 慶治",		"Keiji Koga",		"東京藝術大学 美術学部 先端芸術表現科卒",			""],
+ 				["06_kobayashi",	"",		"小林 舞衣",		"Mai Kobayashi",	"東京藝術大学 美術学部 先端芸術表現科卒",			""],
+ 				["07_shiina",		"",		"椎名 悠香",		"Yuka Shiina",		"東京藝術大学 美術学部 先端芸術表現科卒",			""],	
+ 				["08_shishikura",	"",		"宍倉 志信",		"Shinobu Shishikura","東京藝術大学 美術学部 油画専攻卒",				""],
+ 				["09_shimura",		"",		"志村 茉那美",	"Manami Shimura",	"京都造形芸術大学 美術工芸学科 現代美術・写真コース卒",	""],
+ 				["10_seko",			"",		"瀬古 瑞歩",		"Mizuho Seko",		"日本大学 芸術学部 デザイン学科卒",				""],
+ 				["11_hirai",		"",		"平井 亨季",		"Koki Hirai",		"東京藝術大学 美術学部 先端芸術表現科卒",			""],
+ 				["12_hukuhara",		"",		"福原 翼",		"Tsubasa Hukuhara",	"東京藝術大学 美術学部 絵画科 油画専攻卒",		"https://fukuharaot.tumblr.com/"]
  			];
 
  	var works_M2 = [
@@ -50,20 +50,18 @@ $(function(){
 
 
  	var works_M1 = [
- 				[3,	"00001",	"00002",	"00003"],
- 				[3,	"00001",	"00002",	"00003"],
- 				[3,	"00001",	"00002",	"00003"],
- 				[3,	"00001",	"00002",	"00003"],
- 				[3,	"00001",	"00002",	"00003"],
- 				[3,	"00001",	"00002",	"00003"],
- 				[3,	"00001",	"00002",	"00003"],
- 				[3,	"00001",	"00002",	"00003"],
- 				[3,	"00001",	"00002",	"00003"],
- 				[3,	"00001",	"00002",	"00003"],
- 				[3,	"00001",	"00002",	"00003"],
- 				[3,	"00001",	"00002",	"00003"],
- 				[3,	"00001",	"00002",	"00003"],
- 				[3,	"00001",	"00002",	"00003"],
+ 				[3,	"prototyping (2017)", "content aware fill (2019)", "mixed (2019)"],
+ 				[3,	"車窓について (2017)", "坂の多い街 (2018)", "動き・カメラ(2019)"],
+ 				[3,	"OSX Jingle at Soup (2019)", "Jenga Piece at Leeds International Festival (2019)",	"03_米田が生前愛用したカセット・プレーヤー（米田恵子（1912-1992）の作品と生涯について 内） (2018)"],
+ 				[3,	"３つの異なるモノからなる構成", "声", "無題"],
+ 				[3,	"彼女は父を知らない 彼は西成にいる (2019)", "見守られ後遺症 (2016)", "故郷の因果交流電燈 (2017)"],
+ 				[3,	"ピースオブケイク (2017)", "ピースオブケイク (2017)", "ピースオブケイク (2017)"],
+ 				[3,	"20歳の旅立ち (2017)", "アイ (2019)",	"カメラカメラ (2016)"],
+ 				[3,	"食人葬式時間遡行 (2018)",	 "崖下風葬式時間遡行 (2018)", "アポトーシスの祝福 (2019)"],
+ 				[3,	"Vietnam is here. (2019)",	"-emerge- (2017)",	"昇華-津軽の海より- (2017)"],
+ 				[3,	"monologues (2018)", "WHOSE IS (2018)",	"ＮＯＩＳＥ (2017)"],
+ 				[3,	"島に埋められた本の骨 (2019)",	"この星を語る猫の言葉 (2018)",	"猫の欠伸でしかない (2017)"],
+ 				[3,	"切り返しの部屋 (2018)",	"扇風機 (2019)",	"黄色いママチャリ (2017)"]
  	];
 
 
@@ -80,12 +78,12 @@ $(function(){
  		var link = info_M2[itr][5];
 
  		$(".m2").append(
- 			'<div class="artist-wrapper">\n<div class="sumbnail" >\n<img src="artistInfomation/sumbnail/M2/'
+ 			'<div class="artist-wrapper" id="'
+ 			+ id + '">\n<div class="sumbnail" >\n<img src="artistInfomation/sumbnail/M2/'
 			+ id + '/01.jpg">\n</div>\n<div class="infoText">\n<p class="lab">'
 			+ lab + '研究室</p>\n<div class="name">\n<p class="nameJP">'
 			+ nameJP + '</p>\n<p class="nameEN">'
-			+ nameEN +'</p>\n</div>\n<div class="modalButton" id="'
-			+ id + '">More infomation</div>\n</div>\n</div>'
+			+ nameEN +'</p>\n</div>\n<div class="modalButton">More infomation</div>\n</div>\n</div>'
 		);
 
 		$("#modals-wrapper").append(
@@ -120,12 +118,12 @@ $(function(){
 
 
  		$(".m1").append(
- 			'<div class="artist-wrapper">\n<div class="sumbnail" >\n<img src="artistInfomation/sumbnail/M1/'
+ 			'<div class="artist-wrapper  id="'
+ 			+ id + '"">\n<div class="sumbnail" >\n<img src="artistInfomation/sumbnail/M1/'
 			+ id + '/01.jpg">\n</div>\n<div class="infoText">\n<p class="lab">'
 			+ lab + '</p>\n<div class="name">\n<p class="nameJP">'
 			+ nameJP + '</p>\n<p class="nameEN">'
-			+ nameEN +'</p>\n</div>\n<div class="modalButton" id="'
-			+ id + '">More infomation</div>\n</div>\n</div>'
+			+ nameEN +'</p>\n</div>\n<div class="modalButton">More infomation</div>\n</div>\n</div>'
 		);
 
 		$("#modals-wrapper").append(
