@@ -185,16 +185,19 @@ $(function(){
 		$("#modals-wrapper").fadeIn(500);
 		$("#12_hukuhara_modal").fadeIn(500);
 	});
-	//iOSだと動かない疑惑
+
 	$("#modals-wrapper").on('click', '.back-button', function(){
   		$('body').css('overflow', 'visible');
 		$(".artist-modal").fadeOut(500);
 		$("#modals-wrapper").fadeOut(500);
 	});
-	$("#modals-wrapper").on("click", function(){
+	$("#modals-wrapper").on("click", '#modals-bg', function(){
   		$('body').css('overflow', 'visible');
 		$(".artist-modal").fadeOut(500);
 		$("#modals-wrapper").fadeOut(500);
+	});
+
+	$(".grades").on("click", ".artist-wrapper", function(){
 	});
 
 
