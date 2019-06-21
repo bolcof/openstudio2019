@@ -25,6 +25,18 @@ $(function(){
 		});
 	});
 
+  	var headerHeight = $('header').outerHeight();
+  	$(window).on('load', function(){
+      	$('header').css('top', '-' + headerHeight + 'px');
+  	});
+  	$(window).on('scroll', function(){
+  		if($(window).scrollTop() == 0){
+      		$('header').css('top', '-' + headerHeight + 'px');
+  		}else{
+  			$('header').css('top', '0');
+  		}
+  	});
+
 
 	//modal
 	$("#modals-wrapper").hide();

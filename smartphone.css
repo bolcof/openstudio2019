@@ -8,6 +8,7 @@ header{
 	width: 100vw;
 	position: fixed;
 	z-index: 2;
+ 	transition: .3s;
 }
 
 header *{
@@ -60,11 +61,37 @@ body{
 
 /*トップ*/
 .top-wrapper{
-	padding-top: 25.6vw;
+	top: 0px;
 }
 
-#key-visual{
-	width: 100%;
+#key-visual-wrapper{
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+
+#key-visual-bg{
+	width: 100vw;
+	height: 100vh;
+	top: 0vw;
+	position: absolute;
+	display: block;
+}
+
+#key-visual-obj{
+	width: 83.85vw;
+	top: 14.9vw;
+	left: 16.15vw;
+	position: absolute;
+	display: block;
+	opacity: 0.7;
+}
+
+#key-visual-text{
+	width: 89vw;
+	top: 70vw;
+	left: 5.5vw;
+	position: absolute;
 	display: block;
 }
 

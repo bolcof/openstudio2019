@@ -9,6 +9,7 @@ header{
 	width: 100vw;
 	position: fixed;
 	z-index: 2;
+ 	transition: .3s;
 }
 
 header *{
@@ -70,7 +71,7 @@ body{
 
 /*トップ*/
 .top-wrapper{
-	padding-top: 6vw;
+	top: 0px;
 }
 
 #key-visual{
