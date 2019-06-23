@@ -4,7 +4,8 @@ a {
 }
 
 header{
-	height: 25.6vw;
+	background-color: white;
+	height: 27.8vw;
 	width: 100vw;
 	position: fixed;
 	z-index: 2;
@@ -16,35 +17,60 @@ header *{
 	margin: 0vw;
 }
 
-#title h1{
-	color: white;
-	text-align: center;
-	font-size: 6.4vw;
-	height: 12.8vw;
-	line-height: 12.8vw;
+#title{
+	background-color: white;
+	width: 100vw;
+	height: 15vw;
+	position: relative;
+}
+
+#title img{
+	background-color: white;
+	margin: auto;
+	width: 89vw;
+	display: block;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 2.7vw;
 }
 
 #menu{
+	background-color: white;
 	padding: 0vw;
 }
 
 ul .header-button{
-	color: white;
+	background-color: white;
 	text-align: center;
 	list-style: none;
-	width: 25%;
-	height: 12.8vw;
+	height: 13.333vw;
 	float:left;			/*リスト項目を横に並べる*/
 	display:inline;			/*リスト項目をインライン表示にする*/
 	list-style-type:none;		/*リストマーカー無しにする*/
 }
 
-ul .header-button{
-	vertical-align: middle;
-	line-height: 12.8vw;
-	font-size: 3.75vw;
+ul .header-button img{
+	background-color: white;
+	height: 13.333vw;
 }
 
+#header-top{
+	width: 17.6vw;
+}
+
+#header-about{
+	width: 22.933vw;
+}
+
+#header-exhibitors{
+	width: 33.6vw;
+}
+
+#header-access{
+	width: 25.867vw;
+}
 ul .header-button:hover{
 	font-weight: bold;
 	text-decoration: underline;
@@ -52,6 +78,7 @@ ul .header-button:hover{
 
 body{
 	margin: 0vw;
+	font-family: 'Avenir', '游ゴシック';
 }
 
 .element{
@@ -74,7 +101,6 @@ body{
 	width: 100vw;
 	height: 100vh;
 	top: 0vw;
-	position: absolute;
 	display: block;
 }
 
@@ -97,22 +123,29 @@ body{
 
 /*ステートメント*/
 .about-wrapper{
-	background: #FAFAFA;
+	background: #1E2487;
 }
 
 .element #statement{
+	color: white;
 	font-size: 3.45vw;
 	letter-spacing: 0.15em;
 	line-height: 1.7em;
 	text-align: justify;
 	font-feature-settings: "palt";
-	margin: 9.333vw 2.667vw;
+	margin: 5.333vw 2.667vw;
 }
 
+/*なくなる*/
 .element h1{
 	font-size: 4vw;
 	margin: 9.333vw 0vw 2.667vw 2.667vw;
 	color: black;
+}
+
+.element .section-title{
+	height: 4.4vw;
+	margin: 5.333vw 0vw 2.667vw 2.667vw;
 }
 
 /*モーダル*/
@@ -202,13 +235,21 @@ body{
 
 /*出展者情報*/
 .element .grades{
-	margin: 9.333vw 0vw 9.333vw 2.667vw;
+	margin: 9.333vw 2.667vw 5.333vw 2.667vw;
 	padding: 0vw 0vw 0vw 0vw;
 }
 
-.element .grades h2{
-	font-size: 3.75vw;
-	color: black;
+.element .grades .section-title-mini{
+	height: 4vw;
+}
+
+.element .grades .section-description{
+	font-size: 3.45vw;
+	letter-spacing: 0.15em;
+	line-height: 1.7em;
+	text-align: justify;
+	font-feature-settings: "palt";
+	margin: 5.333vw 0vw;
 }
 
 .artist-wrapper{
@@ -315,7 +356,7 @@ body{
 /*フッター*/
 footer{
 	height: 38vw;
-	background: black;
+	background: #1E2487;
 	
 	-ms-flex-pack: distribute;
 	justify-content: space-around;
@@ -330,11 +371,18 @@ footer #footer-wrapper{
 	margin: 2.667vw;
 }
 
+footer div #icons{
+	margin: 2.667vw;
+}
+
 footer div #icons img{
+	margin-right: 1.333vw;
 	width: 8vw;
 }
 
 footer div #credit{
+	margin: 2.667vw;
 	color: white;
-	font-size: 2.8vw;
+	font-size: 3.25vw;
+	letter-spacing: 0.15em;
 }
