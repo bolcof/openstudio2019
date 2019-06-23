@@ -136,11 +136,23 @@ body{
 	margin: 5.333vw 2.667vw;
 }
 
-/*なくなる*/
-.element h1{
-	font-size: 4vw;
-	margin: 9.333vw 0vw 2.667vw 2.667vw;
-	color: black;
+.element #info-in-about{
+	color: white;
+	font-size: 3.45vw;
+	font-weight: bold;
+	letter-spacing: 0.15em;
+	line-height: 1.7em;
+	text-align: justify;
+	font-feature-settings: "palt";
+	margin: 5.333vw 2.667vw;
+}
+
+.element #info-in-about hr{
+	size: 1;
+}
+
+.element #info-in-about p{
+	margin: 1.667vw 0vw;
 }
 
 .element .section-title{
@@ -286,13 +298,7 @@ body{
 
 .infoText *{
   	vertical-align: top;
-  	margin: 0vw;
-}
-
-.infoText .lab{
-	font-size: 3.45vw;
-	font-weight: bold;
-	padding: 1.333vw 0vw 1.333vw 2.667vw;
+  	margin: 0;
 }
 
 .infoText .name{
@@ -309,10 +315,18 @@ body{
 	font-weight: bold;
 }
 
+.infoText .lab{
+	font-size: 3.45vw;
+	padding: 1.333vw 0vw 0.333vw 2.667vw;
+	margin: 0;
+	color: #787878;
+}
 .infoText .modalButton{
 	font-size: 3.45vw;
-	padding: 1.333vw 0vw 1.333vw 2.667vw;
+	padding: 0.333vw 0vw 1.333vw 2.667vw;
+	margin: 0;
 	text-decoration: underline;
+	color: #787878;
 }
 
 
