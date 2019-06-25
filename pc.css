@@ -80,6 +80,8 @@ ul .header-button:hover{
 
 body{
 	margin: 0vw;
+	font-family: 'Avenir', '游ゴシック';
+	word-break : break-all;
 }
 
 .element{
@@ -235,11 +237,49 @@ body{
 	height: 3.333vw;
 }
 
-.back-button{
+.first-column .back-button{
 	width: 3.333vw;
 	height: 3.333vw;
 	display: inline-block;
 	float: right;
+}
+
+.close-under{
+	text-decoration: underline;
+	margin: auto;
+	text-align: center;
+	/*position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 2vw;*/
+}
+
+#_13_li_modal{
+	height: 78vw;
+}
+
+#_13_li_modal .close-under{
+	text-decoration: underline;
+	margin: auto;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 2vw;
+}
+
+#_03_oka_modal{
+	height: 158vw;
+}
+
+#_03_oka_modal .close-under{
+	text-decoration: underline;
+	margin: auto;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 2vw;
 }
 
 .modal-lab{
@@ -280,6 +320,7 @@ body{
 	display: inline-block;
 	position: absolute;
 	top: 13.8vw;
+	width: 42%;
 }
 
 .footer-column p{
@@ -296,7 +337,7 @@ body{
 
 /*出展者情報*/
 .element .grades{
-	margin: 9.333vw 15vw 9.333vw 15vw;
+	margin: 4.333vw 15vw 2.667vw 15vw;
 	padding: 0vw 0vw 0vw 0vw;
 	overflow: auto;
 }
@@ -309,6 +350,7 @@ body{
 
 .element .grades .section-title-mini{
 	height: 1.8vw;
+	margin: 1.333vw 0vw;
 }
 
 .element .grades .section-description{
@@ -317,7 +359,7 @@ body{
 	line-height: 1.7em;
 	text-align: justify;
 	font-feature-settings: "palt";
-	margin: 9.333vw 0vw;
+	margin: 1.333vw 0vw;
 }
 
 .artist-wrapper{

@@ -47,161 +47,161 @@ $(function(){
 	//modal
 	$("#modals-wrapper").hide();
 
-	$(".grades").on('click', '#01_asao', function(){
+	$(".grades").on('click', '#_01_asao', function(){
   		$('body').css('overflow', 'visible');
 		$("#modals-wrapper").fadeIn(500);
-		$("#01_asao_modal").fadeIn(500);
+		$("#_01_asao_modal").fadeIn(500);
 	});
 
-	$(".grades").on('click', '#02_usami', function(){
+	$(".grades").on('click', '#_02_usami', function(){
   		$('body').css('overflow', 'visible');
 		$("#modals-wrapper").fadeIn(500);
-		$("#02_usami_modal").fadeIn(500);
+		$("#_02_usami_modal").fadeIn(500);
 	});
 
-	$(".grades").on('click', '#03_endo', function(){
+	$(".grades").on('click', '#_03_endo', function(){
   		$('body').css('overflow', 'visible');
 		$("#modals-wrapper").fadeIn(500);
-		$("#03_endo_modal").fadeIn(500);
+		$("#_03_endo_modal").fadeIn(500);
 	});
 
-	$(".grades").on('click', '#04_oikawa', function(){
+	$(".grades").on('click', '#_04_oikawa', function(){
   		$('body').css('overflow', 'visible');
 		$("#modals-wrapper").fadeIn(500);
-		$("#04_oikawa_modal").fadeIn(500);
+		$("#_04_oikawa_modal").fadeIn(500);
 	});
 
-	$(".grades").on('click', '#05_okada', function(){
+	$(".grades").on('click', '#_05_okada', function(){
   		$('body').css('overflow', 'visible');
 		$("#modals-wrapper").fadeIn(500);
-		$("#05_okada_modal").fadeIn(500);
+		$("#_05_okada_modal").fadeIn(500);
 	});
 
-	$(".grades").on('click', '#06_kanai', function(){
+	$(".grades").on('click', '#_06_kanai', function(){
   		$('body').css('overflow', 'visible');
 		$("#modals-wrapper").fadeIn(500);
-		$("#06_kanai_modal").fadeIn(500);
+		$("#_06_kanai_modal").fadeIn(500);
 	});
 
-	$(".grades").on('click', '#07_kobayashi', function(){
+	$(".grades").on('click', '#_07_kobayashi', function(){
   		$('body').css('overflow', 'visible');
 		$("#modals-wrapper").fadeIn(500);
-		$("#07_kobayashi_modal").fadeIn(500);
+		$("#_07_kobayashi_modal").fadeIn(500);
 	});
 
-	$(".grades").on('click', '#08_shikichi', function(){
+	$(".grades").on('click', '#_08_shikichi', function(){
   		$('body').css('overflow', 'visible');
 		$("#modals-wrapper").fadeIn(500);
-		$("#08_shikichi_modal").fadeIn(500);
+		$("#_08_shikichi_modal").fadeIn(500);
 	});
 
-	$(".grades").on('click', '#09_shimizu', function(){
+	$(".grades").on('click', '#_09_shimizu', function(){
   		$('body').css('overflow', 'visible');
 		$("#modals-wrapper").fadeIn(500);
-		$("#09_shimizu_modal").fadeIn(500);
+		$("#_09_shimizu_modal").fadeIn(500);
 	});
 
-	$(".grades").on('click', '#10_shimizu', function(){
+	$(".grades").on('click', '#_10_shimizu', function(){
   		$('body').css('overflow', 'visible');
 		$("#modals-wrapper").fadeIn(500);
-		$("#10_shimizu_modal").fadeIn(500);
+		$("#_10_shimizu_modal").fadeIn(500);
 	});
 
-	$(".grades").on('click', '#11_shin', function(){
+	$(".grades").on('click', '#_11_shin', function(){
   		$('body').css('overflow', 'visible');
 		$("#modals-wrapper").fadeIn(500);
-		$("#11_shin_modal").fadeIn(500);
+		$("#_11_shin_modal").fadeIn(500);
 	});
 
-	$(".grades").on('click', '#12_maeda', function(){
+	$(".grades").on('click', '#_12_maeda', function(){
   		$('body').css('overflow', 'visible');
 		$("#modals-wrapper").fadeIn(500);
-		$("#12_maeda_modal").fadeIn(500);
+		$("#_12_maeda_modal").fadeIn(500);
 	});
 
-	$(".grades").on('click', '#13_li', function(){
+	$(".grades").on('click', '#_13_li', function(){
   		$('body').css('overflow', 'visible');
 		$("#modals-wrapper").fadeIn(500);
-		$("#13_li_modal").fadeIn(500);
+		$("#_13_li_modal").fadeIn(500);
 	});
 
-	$(".grades").on('click', '#14_yoshida', function(){
+	$(".grades").on('click', '#_14_yoshida', function(){
   		$('body').css('overflow', 'visible');
 		$("#modals-wrapper").fadeIn(500);
-		$("#14_yoshida_modal").fadeIn(500);
+		$("#_14_yoshida_modal").fadeIn(500);
 	});
 
 	//M1
-	$(".grades").on('click', '#01_osato', function(){
+	$(".grades").on('click', '#_01_osato', function(){
   		$('body').css('overflow', 'visible');
 		$("#modals-wrapper").fadeIn(500);
-		$("#01_osato_modal").fadeIn(500);
+		$("#_01_osato_modal").fadeIn(500);
 	});
 
-	$(".grades").on('click', '#02_otaki', function(){
+	$(".grades").on('click', '#_02_otaki', function(){
   		$('body').css('overflow', 'visible');
 		$("#modals-wrapper").fadeIn(500);
-		$("#02_otaki_modal").fadeIn(500);
+		$("#_02_otaki_modal").fadeIn(500);
 	});
 
-	$(".grades").on('click', '#03_oka', function(){
+	$(".grades").on('click', '#_03_oka', function(){
   		$('body').css('overflow', 'visible');
 		$("#modals-wrapper").fadeIn(500);
-		$("#03_oka_modal").fadeIn(500);
+		$("#_03_oka_modal").fadeIn(500);
 	});
 
-	$(".grades").on('click', '#04_kang', function(){
+	$(".grades").on('click', '#_04_kang', function(){
   		$('body').css('overflow', 'visible');
 		$("#modals-wrapper").fadeIn(500);
-		$("#04_kang_modal").fadeIn(500);
+		$("#_04_kang_modal").fadeIn(500);
 	});
 
-	$(".grades").on('click', '#05_koga', function(){
+	$(".grades").on('click', '#_05_koga', function(){
   		$('body').css('overflow', 'visible');
 		$("#modals-wrapper").fadeIn(500);
-		$("#05_koga_modal").fadeIn(500);
+		$("#_05_koga_modal").fadeIn(500);
 	});
 
-	$(".grades").on('click', '#06_kobayashi', function(){
+	$(".grades").on('click', '#_06_kobayashi', function(){
   		$('body').css('overflow', 'visible');
 		$("#modals-wrapper").fadeIn(500);
-		$("#06_kobayashi_modal").fadeIn(500);
+		$("#_06_kobayashi_modal").fadeIn(500);
 	});
 
-	$(".grades").on('click', '#07_shiina', function(){
+	$(".grades").on('click', '#_07_shiina', function(){
   		$('body').css('overflow', 'visible');
 		$("#modals-wrapper").fadeIn(500);
-		$("#07_shiina_modal").fadeIn(500);
+		$("#_07_shiina_modal").fadeIn(500);
 	});
 
-	$(".grades").on('click', '#08_shishikura', function(){
+	$(".grades").on('click', '#_08_shishikura', function(){
   		$('body').css('overflow', 'visible');
 		$("#modals-wrapper").fadeIn(500);
-		$("#08_shishikura_modal").fadeIn(500);
+		$("#_08_shishikura_modal").fadeIn(500);
 	});
 
-	$(".grades").on('click', '#09_shimura', function(){
+	$(".grades").on('click', '#_09_shimura', function(){
   		$('body').css('overflow', 'visible');
 		$("#modals-wrapper").fadeIn(500);
-		$("#09_shimura_modal").fadeIn(500);
+		$("#_09_shimura_modal").fadeIn(500);
 	});
 
-	$(".grades").on('click', '#10_seko', function(){
+	$(".grades").on('click', '#_10_seko', function(){
   		$('body').css('overflow', 'visible');
 		$("#modals-wrapper").fadeIn(500);
-		$("#10_seko_modal").fadeIn(500);
+		$("#_10_seko_modal").fadeIn(500);
 	});
 
-	$(".grades").on('click', '#11_hirai', function(){
+	$(".grades").on('click', '#_11_hirai', function(){
   		$('body').css('overflow', 'visible');
 		$("#modals-wrapper").fadeIn(500);
-		$("#11_hirai_modal").fadeIn(500);
+		$("#_11_hirai_modal").fadeIn(500);
 	});
 
-	$(".grades").on('click', '#12_hukuhara', function(){
+	$(".grades").on('click', '#_12_hukuhara', function(){
   		$('body').css('overflow', 'visible');
 		$("#modals-wrapper").fadeIn(500);
-		$("#12_hukuhara_modal").fadeIn(500);
+		$("#_12_hukuhara_modal").fadeIn(500);
 	});
 
 	$("#modals-wrapper").on('click', '.back-button', function(){

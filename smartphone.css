@@ -79,6 +79,7 @@ ul .header-button:hover{
 body{
 	margin: 0vw;
 	font-family: 'Avenir', '游ゴシック';
+	word-break : break-all;
 }
 
 .element{
@@ -189,8 +190,6 @@ body{
 }
 
 
-
-
 /*モーダル*/
 #modals-wrapper{
 	width: 100vw;
@@ -240,9 +239,9 @@ body{
 }
 
 .close-under{
-	display: inline-block;
 	text-decoration: underline;
 	margin: 0;
+	text-align: center;
 }
 
 .modal-lab{

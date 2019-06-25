@@ -2,22 +2,22 @@ $(function(){
  	var info_M2 = [
  				["01_asao",		"高山明",	"浅尾 鷹也",		"Takaya Asao",		"九州産業大学芸術学部デザイン学科卒",			"https://twitter.com/sotky_a"],
  				["02_usami",	"桂英史",	"宇佐美 奈緒",	"Nao Usami",		"東京藝術大学 美術学部 デザイン科卒",			"http://naousami.com"],
- 				["03_endo",		"佐藤雅彦",	"遠藤 紘也",		"Hiroya Endo",		"東京造形大学 造形学部 デザイン学科 映画専攻卒",	"https://natsumioikawa.tumblr.com/"],
- 				["04_oikawa",	"高山明",	"及川 菜摘",		"Natsumi Oikawa",	"多摩美術大学 美術学部 統合デザイン学科卒",		"http://hiroya-endo.net/"],
+ 				["03_endo",		"佐藤雅彦",	"遠藤 紘也",		"Hiroya Endo",		"多摩美術大学 美術学部 統合デザイン学科卒",	"http://hiroya-endo.net/"],
+ 				["04_oikawa",	"高山明",	"及川 菜摘",		"Natsumi Oikawa",	"東京造形大学 造形学部 デザイン学科 映画専攻卒",		"https://natsumioikawa.tumblr.com/"],
  				["05_okada",	"桂英史",	"岡田 直己",		"Naoki Okada",		"東京藝術大学 美術学部 デザイン科卒",			"http://bat-headache-ouchouchouch.tumblr.com/"],
  				["06_kanai",	"佐藤雅彦",	"金井 啓太",		"Keita Kanai",		"筑波大学 情報学群卒",							"https://volkhov.tumblr.com/"],
- 				["07_kobayashi","桐山孝司",	"小林 颯",		"Hayate Kobayashi",	"慶應義塾大学 環境情報学部 環境情報学科卒",		"https://vimeo.com/user15242827"],	
+ 				["07_kobayashi","桐山孝司",	"小林 颯",		"Hayate Kobayashi",	"慶應義塾大学 環境情報学部 環境情報学科卒",		"https://www.hayatekobayashi.com"],	
  				["08_shikichi",	"高山明",	"敷地 理",		"Osamu Shikichi",	"武蔵野美術大学 造形学部 彫刻学科卒",			"https://mumumubrothers.wixsite.com/osamu-shikichi"],
  				["09_shimizu",	"桐山孝司",	"清水 愛恵",		"Manae Shimizu",	"首都大学東京 システムデザイン学部 インダストリアルアートコース卒",	"http://manaepf-tokyo.com"],
  				["10_shimizu",	"桐山孝司",	"清水 潤",		"Mitsuru Shimizu",	"東京藝術大学 美術学部 先端芸術表現科卒",			""],
  				["11_shin",		"畠山直哉",	"申 晛湜",		"Hyunsik Shin",		"早稲田大学 文化構想学部 表象・メディア論系卒",	""],
  				["12_maeda",	"桂英史",	"前田 博雅",		"Hiromasa Maeda",	"武蔵野美術大学 造形学部 映像学科卒",			""],
- 				["13_li",		"高山明",	"李 和晋",		"Lee Hwajin",		"東京工芸大学芸術学部写真学科卒",				""],
- 				["14_yoshida",	"畠山直哉",	"吉田 真也",		"Shiniya Yoshida",	"秋田公立美術大学 美術学部 ビジュアルアーツ専攻卒",""]
+ 				["13_li",		"高山明",	"李 和晋",		"Lee Hwajin",		"東京工芸大学芸術学部写真学科卒",				"hwajinleee.tumblr.com"],
+ 				["14_yoshida",	"畠山直哉",	"吉田 真也",		"Shiniya Yoshida",	"秋田公立美術大学 美術学部 ビジュアルアーツ専攻卒", ""]
  			];
 
  	var info_M1 = [
- 				["01_osato",		"",		"大里　淳",		"Jun Osato",		"東京藝術大学 美術学部 デザイン科卒",			""],
+ 				["01_osato",		"",		"大里　淳",		"Jun Osato",		"東京藝術大学 美術学部 デザイン科卒",			"https://loboqollopodol.tumblr.com/"],
  				["02_otaki",		"",		"大滝 彩加",		"Ayaka Otaki",		"多摩美術大学 美術学部 絵画学科 油画専攻卒",		"http://otakiayaka.tumblr.com"],
  				["03_oka",			"",		"岡 千穂",		"Chiho Oka",		"東京藝術大学 音楽学部 音楽環境創造科卒",			""],
  				["04_kang",			"",		"姜 賢植",		"Hyeonsik Kang",	"東京藝術大学 音楽学部 音楽環境創造科卒",			""],
@@ -143,15 +143,19 @@ $(function(){
 
     //shikichi
     ,""
-    //shimizu
+
+    //shimizu-manae
     ,"2019<br>"
     +"MEDIA PRACTICE 18-19<br><br>"
-    +"2018"
+    +"2018<br>"
     +"OPEN STUDIO 2018<br>"
     +"Film and New Media<br>"
     +"首都大学東京 システムデザイン学部・研究科 インダストリアルアートコース 学域卒業・修了制作展2018<br><br>"
     +"2016<br>"
     +"東京プロジェクションマッピングアワードvol.0 最優秀賞<br>"
+
+    //shimizu-mitsuru
+    ,""
 
     //shin
     ,""
@@ -159,6 +163,20 @@ $(function(){
     //maeda
     ,"2017<br>"
     +"「映像は死んだのか」出展　@武蔵野美術大学課外センター<br>"
+
+    //lee
+    ,"-Solo Exhibition<br>"
+	+"2017.8  「位相の地図」古本屋百年, 東京<br><br>"
+	+"-Group Exhibition<br>"
+	+"2018.2  「観察と考察 Ⅱ」Alt_Medium, 東京<br>"
+	+"2017.2  「6th EMON AWARD」Emon Photo Gallery, 東京<br>"
+	+"2015.3  「東京工芸大学 Recommend展」新宿 Nikon Salon, 東京<br><br>"
+	+"-Screening<br>"
+	+"2019.3  「音のいろ、音のかたち　〜現代音楽はスペクタクルの夢をみるか〜」（G.Aperghis「Recitation」上映プログラムのひとつとして）東京芸術大学奏楽堂, 東京<br><br>"
+
+	+"-Writing<br>"
+	+"2018.7   「文藝誌園第2号　時の窓辺に暮らす」（エッセイと写真）<br>"
+	+"2018.4   「言葉の宇宙船　100の読者、100の経験」（コメント）<br>"
 
     //yoshida
     ,"2018<br>"
@@ -168,14 +186,185 @@ $(function(){
 
     ];
 
-    var comment_M2 = [
-    	//Asao
-    	"助けてください"
+    var history_M1 = [
 
-    	//Usami
-    	,"ジェンダーのリサーチをもとに、被写体と鑑賞者の&quot視線&quotの関係を揺さぶるポートレイトや映像を制作する。"
+    //osato
+    "2019<br>"
+    +"「第67回 東京藝術大学 卒業・修了作品展」出展<br><br>"
+    +"2017<br>"
+    +"二人展「Remixed Salad」企画・出展<br>"
+    +"グループ展「Boogie Nights」出展<br>"
+    +"グループ展「AFTERALL」出展<br><br>"
+    +"2016<br>"
+    +"JAGDA学生グランプリ2016 入選<br>"
+    +"二人展「ゆううつをゆうえつしてしまった。」企画・出展<br>"
+    +"グラフィック展「宙吊」出展<br><br>"
+    +"2015<br>"
+    +"ターナーアワード2015 優秀賞<br>"
+
+    //otaki
+    ,"2019<br>"
+    +"東京五美術大学連合卒業・修了制作展<br>"
+    +"2018年度多摩美術大学美術学部卒業制作展<br>"
+
+    //oka
+    ,"最近の主な活動<br>"
+	+"2019年<br>"
+	+"5月7-10日 Leeds, UK Leeds International Festival, 'Automation and Me'<br>"
+	+"5月5日 Ftarri, 東京都 Fabio Perletta and Friends hosted by Makoto Oshiro<br>"
+	+"4月18日 WWW, 東京都 パタミュージッキング, as かさねぎリストバンド<br>"
+	+"3月9日 Soup, 東京都 BARRICADE2 hosted by HUH and Naoki Nomoto, as Duo with Utah Kawasaki<br><br>"
+
+	+"2018年<br>"
+	+"12月21-24日 TOKAS, 東京都 OPEN SITE 2018-2019 米田恵子(1912-1992)の作品と生涯について, as Théâtre Musical Tokyo (TMT)<br>"
+	+"11月18日 Circus Tokyo, 東京都 Algorave x NxPC.Lab at Tokyo (IAMAS)<br>"
+	+"11月10日 Club Stomp, 大阪府 Algorave Osaka<br>"
+	+"9月1日 DINA, Sheffield, UK Algorave Sheffield<br>"
+	+"8月29日 The Globe That Fits, London, UK Algorave Hackney<br>"
+	+"8月19日 ANAGRA, 東京都 Algorave Tokyo<br>"
+	+"6月3日 Soup, 東京都 Algorave Tokyo<br>"
+	+"3月27-30日 東京藝術大学, 東京都 東京藝術大学＋ホーチミン市美術大学共同プロジェクト展覧会・報告会・ワークショップ 三角測量――トーキョー・ゴトー・ホーチミン<br>"
+	+"3月11日 pool, 東京都 Algorave Tokyo<br><br>"
+
+	+"2017年<br>"
+	+"12月22日 KGRn, 東京都 Algorave Tokyo<br>"
+	+"2月15日 EARTHDOM, 東京都 アフターミュージッキング・パーティ！―祝出版記念―<br>"
+	+"11月3日 IKLECTIK, London, UK Ensemble for Experimental Music and Theater ロンドン・ベルリンツアー2017:日本実験音楽 1962-2017<br>"
+	+"11月1日 SPEKTRUM, Berlin, DE 同上<br>"
+	+"10月29日 Hundred Years Gallery, London, UK 同上<br>"
+	+"9月24日 Soup, 東京都 コリジョン<br><br>"
+
+	+"ワークショップ<br>"
+	+"2018年<br>"
+	+"11月17日 朝日新聞メディアラボ, 東京都 Live coding workshop for women/non-binary<br>"
+	+"11月15日 多摩美術大学, 東京都 Live coding workshop for women/non-binary at Tokyo Tama Art Uni. #1<br>"
+	+"11月11日 STARRYWORKS inc., 大阪府 Womens' workshop Osaka<br><br>"
+
+	+"派遣<br>"
+	+"2017年11月13-19日 Ho Chi Minh, VN 東京藝術大学＋ホーチミン市美術大学共同プロジェクト<br><br>"
+
+	+"研究活動<br>"
+	+"2017年より日高良佑(首都大学東京助教)、篠田ミル(東京大学情報学環・学際情報学府修士課程)のMIDI規格成立過程調査研究に参加<br>"
+    //kang
+    ,""
+
+    //koga
+    ,""
+
+    //kobayashi
+    ,""
+
+    //shiina
+    ,""
+
+    //shishikura
+    ,"2018<br>"
+    +"「不能の時間遡行者」<br>"
+
+    //shimura
+    ,"2019<br>"
+    +"「2018年度京都造形芸術大学卒業展」<br>"
+    +"「KUAD ANNUAL2019 宇宙船地球号」（グループ展）<br><br>"
+    +"2018<br>"
+    +"「ON THE ROAD」（グループ展）<br>"
+    +"「おわらないうた」（個展）<br><br>"
+    +"2017<br>"
+    +"「-emerge-」（個展）、「旅と文学」（グループ展）、「第16回京都現代写真作家展」（グループ展）<br>"
+    +"水中花」（個展）<br>"
+
+    //seko
+    ,""
+
+    //hirai
+    ,""
+
+    //hukuhara
+    ,""
     ];
 
+    var comment_M2 = [
+    	//asao
+    	"助けてください"
+
+    	//usami
+    	,"ジェンダーのリサーチをもとに、被写体と鑑賞者の&quot視線&quotの関係を揺さぶるポートレイトや映像を制作する。"
+
+    	//endo
+    	,"映像やインタラクティブメディアを中心にしつつも領域を限定せず制作活動をしている。人間の五感や身体感覚に基づいた新たな表現やデザインを模索している。"
+
+    	//oikawa
+    	,"フィールドワークを通して他者の中にある風景について考える。カメラを通していかに対象との距離を保つことが出来るかを模索しドキュメンタリーの方法を探究する。"
+
+    	//okada
+    	,"不条理の文学や演劇に興味があります。目の前で起きてしまった事故や事件など、予想や理解を超えた問題に対して、人はいかにして向き合うことができるのか、表現を通して探っています。"
+
+    	//kanai
+		,"このWebサイトのコーディングをしました"
+
+    	//kobayashi
+    	,"短編アニメーションを制作してきた背景から、“アニメーションの脱構築”を主題に、アニメーションのもつ要素を解体し、現代社会における個人的なアニメーションの成立条件を考察する。"
+
+    	//shikichi
+    	,"私は私のものだと思っています。同時にあなたはあなたのものだと思っていますが、そうとも限らず私たちは、社会的なものに突き動かされたり、動物的なものから逃れられない瞬間があります。思っているよりも私たちはずっと不自由なのかも知れません。1人の人間を塊として括り出し、それを動かす様々なものを捉えようと試みています。"
+
+    	//shimizu-manae
+    	,"現在、「東京」をテーマに作品を作っている。生まれてこの方、都内に暮らしながらも西側でずっと過ごしてきた私には「都心」への憧れがある。電車で30分もすれば行けるけれど、何か違うその場所。大好きな都心を歩きながら、その純粋な面白さを抽出し、構築する。"
+
+    	//shimizu-mitsuru
+    	,""
+
+    	//shin
+    	,"2017年より暗号通貨のトレード・研究を行っており、日々暗号通貨の本質とその未来について考察しています。"
+
+    	//maeda
+    	,"カメラによって世界をキャプチャするとき、わたしたちが慣れ親しんだはずの世界は圧縮され、ときに思わぬ平面性に遭遇する。その中に潜む奥行きやレイヤーの構造に着目した制作を行う。"
+
+    	//lee
+    	,"記憶と関わり合う事象として写真や映像による経験を捉え、事物の不在を起点とする作品を制作。"
+
+    	//yoshida
+    	,"自身の体験や記憶と土地の風景を交差させた物語を制作する。現在取り組んでいるテーマは青森県六ヶ所村を巡る複雑な情勢と地方から都市に運ばれる見えざる力を可視化すること、風景と親密さ。"
+    ];
+
+
+    var comment_M1 = [
+
+    //osato
+    "画像を軸にメディアのことを考えていきたいと思っています。メディアと、社会や歴史、経済、また人間の知覚のあり方や行動の様式、欲望との接続に興味があります。"
+
+    //otaki
+    ,"リニアな時間を持つ映画と映像インスタレーション、二つの形式から映像を制作しています。映像の時間、運動、撮影すること、音、言葉、編集に関心を持っています。映像や言葉によって物事の見方捉え方を提示することを目指しています。"
+
+    //oka
+    ,"コンピュータとアルゴリズミックな可変性、オートメーション、量的な情報、規則、ソフトウェアやフォーマット、そして音楽、即興音楽、詩、コミュニティ。"
+
+    //kang
+    ,""
+
+    //koga
+    ,""
+
+    //kobayashi
+    ,"日常の中に居ながらにして、美術史や歴史といった100年単位で編まれる客観的な時間軸を実感できる瞬間をきっかけに制作を行う。"
+
+    //shiina
+    ,""
+
+    //shishikura
+    ,"時間や空間を超えてこの世界に満ちている普遍的な「神」の存在を前提に、かつて原始社会において行われた儀礼や神話の現在における形を探っている。"
+
+    //shimura
+    ,"ベトナム戦争における枯葉剤被害のリサーチ活動経験をもとに、過去の戦争や災害がもたらした負の遺産との向き合い方について考え続けている。"
+
+    //seko
+    ,""
+
+    //hirai
+    ,""
+
+    //hukuhara
+    ,""
+    ];
 
 
  	for(var itr=0; itr<14; itr++){
@@ -187,11 +376,12 @@ $(function(){
  		var filename = ["01.jpg", "02.jpg", "03.jpg"];
  		var fileTitle = [works_M2[itr][1], works_M2[itr][2], works_M2[itr][3]];
  		var almaMater = info_M2[itr][4]; 
+ 		var comment = comment_M2[itr];
  		var link = info_M2[itr][5];
  		var history = history_M2[itr];
 
  		$(".m2").append(
- 			'<div class="artist-wrapper" id="'
+ 			'<div class="artist-wrapper" id="_'
  			+ id + '">\n<div class="sumbnail" >\n<img src="artistInfomation/sumbnail/M2/'
 			+ id + '/01.jpg">\n</div>\n<div class="infoText">\n<div class="name">\n<p class="nameJP">'
 			+ nameJP + '</p>\n<p class="nameEN">'
@@ -200,31 +390,29 @@ $(function(){
 		);
 
 		$("#modals-wrapper").append(
-			'<div class="artist-modal" id="' 
+			'<div class="artist-modal" id="_' 
 			+ id + '_modal">\n<div class="first-column">\n<div class="modal-lab">'
 			+ lab + '研究室</div>\n<img src="images/UI/close.png" class="back-button">\n</div>\n<div class="second-column">\n<div class="modal-nameJP">'
 			+ nameJP +'</div>\n<div class="modal-nameEN">'
 			+ nameEN +'</div>\n</div>');
 
 		for(var i=0; i<worksNum; i++){
-			$("#" + id + "_modal").append('<div class="work">\n<img src="artistInfomation/M2/'
+			$("#_" + id + "_modal").append('<div class="work">\n<img src="artistInfomation/M2/'
 				+ id + '/' +filename[i] + '" class="work-photo">\n<p class="work-title">'
 				+ fileTitle[i] + '</p>\n</div>\n');
 		}
 
-		$("#" + id + "_modal").append(
+		$("#_" + id + "_modal").append(
 			'<div class="footer-column">\n'
-				+'<p class="alma-mater">'+ almaMater + '</p>\n'
+				+'<p class="alma-mater">'+ almaMater + '<br><br></p>\n'
+				+'<p class="comment">'+ comment + '</p>\n'
 				+'<div class="link">\n'
 					+'<a href="'+ link + '">' + link +'</a>\n'
 				+'</div>\n'
+				+'<div class="history"><p><br>' + history + '</p></div>'
 			+'</div>\n'
-			
-			+'<div class="history"><p>' + history + '</p></div>'
 
 			+'<div class="back-button close-under">Close</div>'
-
-			+'</div>'
 			);
 	}
 
@@ -238,34 +426,45 @@ $(function(){
  		var filename = ["01.jpg", "02.jpg", "03.jpg"];
  		var fileTitle = [works_M1[itr][1], works_M1[itr][2], works_M1[itr][3]];
  		var almaMater = info_M1[itr][4]; 
+ 		var comment = comment_M1[itr];
  		var link = info_M1[itr][5];
+ 		var history = history_M1[itr];
+
 
 
  		$(".m1").append(
- 			'<div class="artist-wrapper" id="'
+ 			'<div class="artist-wrapper" id="_'
  			+ id + '">\n<div class="sumbnail" >\n<img src="artistInfomation/sumbnail/M1/'
 			+ id + '/01.jpg">\n</div>\n<div class="infoText">\n<div class="name">\n<p class="nameJP">'
 			+ nameJP + '</p>\n<p class="nameEN">'
-			+ nameEN +'</p>\n</div>\n<p class="lab">'
-			+ lab + '</p>\n<div class="modalButton">More infomation</div>\n</div>\n</div>'
+			+ nameEN +'</p>\n</div>\n<div class="modalButton">More infomation</div>\n</div>\n</div>'
 		);
 
 		$("#modals-wrapper").append(
-			'<div class="artist-modal" id="' 
+			'<div class="artist-modal" id="_' 
 			+ id + '_modal">\n<div class="first-column">\n<div class="modal-lab">'
 			+ lab + '</div>\n<img src="images/UI/close.png" class="back-button">\n</div>\n<div class="second-column">\n<div class="modal-nameJP">'
 			+ nameJP +'</div>\n<div class="modal-nameEN">'
 			+ nameEN +'</div>\n</div>');
 
 		for(var i=0; i<worksNum; i++){
-			$("#" + id + "_modal").append('<div class="work">\n<img src="artistInfomation/M1/'
+			$("#_" + id + "_modal").append('<div class="work">\n<img src="artistInfomation/M1/'
 				+ id + '/' +filename[i] + '" class="work-photo">\n<p class="work-title">'
 				+ fileTitle[i] + '</p>\n</div>\n');
 		}
 
-		$("#" + id + "_modal").append('<div class="footer-column">\n<p class="alma-mater">'
-			+ almaMater + '</p>\n<div class="link">\n<a href="'
-			+ link + '">' + link +'</a>\n</div>\n</div>\n</div>');
+		$("#_" + id + "_modal").append(
+			'<div class="footer-column">\n'
+				+'<p class="alma-mater">'+ almaMater + '<br><br></p>\n'
+				+'<p class="comment">'+ comment + '</p>\n'
+				+'<div class="link">\n'
+					+'<a href="'+ link + '">' + link +'</a>\n'
+				+'</div>\n'
+				+'<div class="history"><p><br>' + history + '</p></div>'
+			+'</div>\n'
+
+			+'<div class="back-button close-under">Close</div>'
+			);
 
  	}
 
