@@ -64,6 +64,110 @@ $(function(){
  				[3,	"切り返しの部屋 (2018)",	"扇風機 (2019)",	"黄色いママチャリ (2017)"]
  	];
 
+ 	var history_M2 =
+    [
+    //Asao
+    "2018<br>"
+    +"「声を殺して叫べ」上映<br>"
+    +"九州産業大学卒業制作秀作展（福岡アジア美術館）<br><br>"
+    +"2017<br>"
+    +"「確かな気配」上映<br>"
+    +"イメージフォーラムフェスティバル2017（横浜を含む国内５都市）<br>"
+    +"ミニキノ国際短編映画祭（インドネシア）<br>"
+    +"Now Japan Festival（リトアニア） <br>"
+
+    //usami
+    ,"2019<br>"
+    +"TOKYO FRONTLINE PHOTO AWARD 2018 入選<br><br>"
+    +"2018<br>"
+    +"TOKYO FRONTLINE PHOTO AWARD 2017 入選<br><br>"
+    +"2017<br>"
+    +"THE TOKYO ART BOOK FAIR / 寺田倉庫<br>"
+    +"Live Performance / ART MEDIA CENTER｜東京藝術大学芸術情報センター<br>"
+
+    //endo
+    ,"2018<br>"
+    +"多摩美術大学 統合デザイン学科 卒業制作展 2018<br><br>"
+    +"2017<br>"
+    +"企画展「妙展」（多摩美術大学芸術祭）<br>"
+    +"統合デザイン学科 第１期生 成果展 ”INTEGRATING”　BankArt NYK<br>"
+
+    //oikawa
+    ,"2019<br>"
+    +"第13回「奏楽堂企画学内公募」最優秀企画『音のいろ、音のかたち　〜現代音楽はスペクタクルの夢をみるか〜』 <br>"
+    +"岸井戯曲を上演するinNagoya#1 「本当に大事なことはあなたの目の前では起こらない」<br>"
+
+    //okada
+    ,"2018<br>"
+    +"東京藝術大学卒業制作展　デザイン賞<br><br>"
+    +"2017<br>"
+    +"SXSW2017　プロダクトデザイン<br>"
+    +"コルベール　2074年夢の世界アワード　ファイナリストコンペティション<br>"
+
+    //kanai
+    ,"2019<br>"
+    +"第24回学生CGコンテスト アート部門 ナレッジ賞<br>"
+    +"ASK?映像祭2019 入選<br>"
+    +"MEDIA PRACTICE 18-19｜東京藝術大学元町中華街校舎<br>"
+    +"ギンガクノフユ2019 参加 | 岩手県西和賀町<br><br>"
+    +"2018<br>"
+    +"第23回学生CGコンテスト アート部門 ナレッジ賞<br>"
+    +"OPEN STUDIO 2018｜東京藝術大学元町中華街校舎<br><br>"
+    +"2017<br>"
+    +"北九州デジタルクリエータコンテスト2017 パフォーマンス部門入選<br>"
+    +"第22回学生CGコンテスト アート部門 ナレッジ賞<br>"
+	+"「ZAF 逗子メディアアートフェスティバル」| 逗子会館<br><br>"
+	+"2016<br>"
+	+"「筑波大学パフォーマンス2016 ねぞうのへん」| 筑波大学<br>"
+	+"「INNOVATION WORLD FESTA 2016」| 筑波大学<br>"
+	+"「みなとメディアミュージアム2016」| ひたちなか市那珂湊<br><br>"
+	+"2015<br>"
+	+"「Art Hack Day 2015」3331α Arts千代田 斎藤精一賞<br>"
+
+
+    //kobayashit
+    ,"2019<br>"
+    +"第24回学生CGコンテスト 受賞作品展｜日本科学未来館<br>"
+    +"MEDIA PRACTICE 18-19｜東京藝術大学元町中華街校舎<br><br>"
+    +"2018<br>"
+    +"OPEN STUDIO 2018｜東京藝術大学元町中華街校舎<br>"
+    +"個展 チューニング｜No.12 Gallery<br>"
+    +"MEC Award 2018 入選作品展｜SKIPシティ 彩の国ビジュアルプラザ 映像ミュージアム<br>"
+    +"第23回学生CGコンテスト 受賞作品展｜日本科学未来館<br>"
+    +"2018年度 慶應義塾大学SFC 学生有志 合同展示 X-port｜YCC ヨコハマ創造都市センター<br><br>"
+    +"2017<br>"
+    +"イメージフォーラム ヤング・パースペクティヴ 2017｜イメージフォーラム<br><br>"
+    +"2016<br>"
+    +"インターネットヤミ市 東京 2016 〜買える力〜｜3331 Arts Chiyoda<br>"
+    +"2016年度 武蔵野美術大学芸術祭｜武蔵野美術大学 <br>"
+
+    //shikichi
+    ,""
+    //shimizu
+    ,"2019<br>"
+    +"MEDIA PRACTICE 18-19<br><br>"
+    +"2018"
+    +"OPEN STUDIO 2018<br>"
+    +"Film and New Media<br>"
+    +"首都大学東京 システムデザイン学部・研究科 インダストリアルアートコース 学域卒業・修了制作展2018<br><br>"
+    +"2016<br>"
+    +"東京プロジェクションマッピングアワードvol.0 最優秀賞<br>"
+
+    //shin
+    ,""
+
+    //maeda
+    ,"2017<br>"
+    +"「映像は死んだのか」出展　@武蔵野美術大学課外センター<br>"
+
+    //yoshida
+    ,"2018<br>"
+    +"「MEC Award 2018 入選作品展」SKIPシティ 彩の国ビジュアルプラザ 映像ミュージアム<br><br>"
+    +"2016<br>"
+    +"ISCA2015 佳作「沈黙。」/ 大阪府 ナレッジキャピタル<br>"
+
+    ];
+
 
 
  	for(var itr=0; itr<14; itr++){
@@ -76,6 +180,7 @@ $(function(){
  		var fileTitle = [works_M2[itr][1], works_M2[itr][2], works_M2[itr][3]];
  		var almaMater = info_M2[itr][4]; 
  		var link = info_M2[itr][5];
+ 		var history = history_M2[itr];
 
  		$(".m2").append(
  			'<div class="artist-wrapper" id="'
@@ -99,9 +204,20 @@ $(function(){
 				+ fileTitle[i] + '</p>\n</div>\n');
 		}
 
-		$("#" + id + "_modal").append('<div class="footer-column">\n<p class="alma-mater">'
-			+ almaMater + '</p>\n<div class="link">\n<a href="'
-			+ link + '">' + link +'</a>\n</div>\n</div>');
+		$("#" + id + "_modal").append(
+			'<div class="footer-column">\n'
+				+'<p class="alma-mater">'+ almaMater + '</p>\n'
+				+'<div class="link">\n'
+					+'<a href="'+ link + '">' + link +'</a>\n'
+				+'</div>\n'
+			+'</div>\n'
+			
+			+'<div class="history"><p>' + history + '</p></div>'
+
+			+'<div class="back-button close-under">Close</div>'
+
+			+'</div>'
+			);
 	}
 
 
@@ -141,7 +257,7 @@ $(function(){
 
 		$("#" + id + "_modal").append('<div class="footer-column">\n<p class="alma-mater">'
 			+ almaMater + '</p>\n<div class="link">\n<a href="'
-			+ link + '">' + link +'</a>\n</div>\n</div>');
+			+ link + '">' + link +'</a>\n</div>\n</div>\n</div>');
 
  	}
 

@@ -5,7 +5,7 @@ a {
 
 header{
 	height: 6vw;
-	background-color: black;
+	background-color: white;
 	width: 100vw;
 	position: fixed;
 	z-index: 2;
@@ -23,12 +23,16 @@ header *{
 	line-height: 6vw;
 }
 
-#title h1{
-	color: white;
-	text-align: center;
-	vertical-align: bottom;
-	font-size: 2vw;
-	letter-spacing: 0.15em;
+#title img{
+	background-color: white;
+	margin: auto;
+	height: 2vw;
+	display: block;
+	margin: auto;
+	position: absolute;
+	left: 3vw;
+	top: 2vw;
+	float: left;
 }
 
 #menu{
@@ -43,16 +47,31 @@ ul .header-button{
 	color: white;
 	text-align: center;
 	list-style: none;
-	float:left;			/*リスト項目を横に並べる*/
+	float: left;			/*リスト項目を横に並べる*/
 	display:inline;			/*リスト項目をインライン表示にする*/
 	list-style-type: none;		/*リストマーカー無しにする*/
-	padding: 0vw 2.5vw;
 }
 
-ul .header-button{
-	vertical-align: middle;
-	font-size: 1.3vw;
+ul .header-button img{
+	background-color: white;
+	height: 6vw;
 }
+/*
+#header-top{
+	width: 17.6vw;
+}
+
+#header-about{
+	width: 22.933vw;
+}
+
+#header-exhibitors{
+	width: 33.6vw;
+}
+
+#header-access{
+	width: 25.867vw;
+}*/
 
 ul .header-button:hover{
 	font-weight: bold;
@@ -74,17 +93,68 @@ body{
 	top: 0px;
 }
 
-#key-visual{
-	width: 100%;
+#key-visual-wrapper{
+	width: 100vw;
+	height: 75vw;
+	position: relative;
+}
+
+#key-visual-bg{
+	width: 100vw;
+	height: 75vw;
+	top: 0vw;
 	display: block;
 }
 
+/* パソコンで見たときは"pc"のclassがついた画像が表示される */
+@media only screen and (min-width: 751px){
+	#key-visual-obj-pc{
+		width: 51.6vw;
+		top: 0vw;
+		left: 48.4vw;
+		position: absolute;
+		display: block;	}
+	#key-visual-obj-sp {
+		width: 0;
+		height: 0;
+		display: none !important;
+	}
+}
+
+/* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
+@media only screen and (max-width: 750px) {
+	#key-visual-obj-pc{
+		width: 0;
+		height: 0;
+		display: none !important;
+	}	
+	#key-visual-obj-sp {
+		width: 83.85vw;
+		top: 14.9vw;
+		left: 16.15vw;
+		position: absolute !important;
+		display: block;
+		opacity: 0.7;
+	}
+}
+
+#key-visual-text{
+	width: 41.45vw;
+	top: 23.4vw;
+	left: 8.2vw;
+	position: absolute;
+	display: block;
+}
+
+
+
 /*ステートメント*/
 .about-wrapper{
-	background: #FAFAFA;
+	background: #1E2487;
 }
 
 .element #statement{
+	color: white;
 	font-size: 1.2vw;
 	letter-spacing: 0.15em;
 	line-height: 1.7em;
@@ -92,12 +162,37 @@ body{
 	font-feature-settings: "palt";
 	margin: 3.5vw 15vw;
 }
-
+/*
 .element h1{
 	font-size: 1.8vw;
 	margin: 3.5vw 0vw 2vw 15vw;
 	color: black;
+}*/
+
+.element #info-in-about{
+	color: white;
+	font-size: 1.2vw;
+	font-weight: bold;
+	letter-spacing: 0.15em;
+	line-height: 1.7em;
+	text-align: justify;
+	font-feature-settings: "palt";
+	margin: 3.5vw 15vw;
 }
+
+.element #info-in-about hr{
+	size: 1;
+}
+
+.element #info-in-about p{
+	margin: 1vw 0vw;
+}
+
+.element .section-title{
+	height: 2.1vw;
+	margin: 3.5vw 0vw 2vw 15vw;
+}
+
 
 /*モーダル*/
 #modals-wrapper{
@@ -197,6 +292,8 @@ body{
 	text-decoration: underline;
 }
 
+
+
 /*出展者情報*/
 .element .grades{
 	margin: 9.333vw 15vw 9.333vw 15vw;
@@ -204,9 +301,23 @@ body{
 	overflow: auto;
 }
 
+/*
 .element .grades h2{
 	font-size: 1.3vw;
 	color: black;
+}*/
+
+.element .grades .section-title-mini{
+	height: 1.8vw;
+}
+
+.element .grades .section-description{
+	font-size: 1.2vw;
+	letter-spacing: 0.15em;
+	line-height: 1.7em;
+	text-align: justify;
+	font-feature-settings: "palt";
+	margin: 9.333vw 0vw;
 }
 
 .artist-wrapper{
@@ -218,12 +329,13 @@ body{
     display: flex;
     float: left;
 	width: 50%;
+	height: 12.3vw;
+	margin: 1vw 0vw;
 }
 
 .artist-wrapper .sumbnail{
 	display: inline-block;
 	width: 55%;
-	height: 12.3vw;
 	margin: 1vw 0vw;
 	float: left;
 }
@@ -249,14 +361,8 @@ body{
   	margin: 0vw;
 }
 
-.infoText .lab{
-	font-size: 1.2vw;
-	font-weight: bold;
-	padding: 0.45vw 0vw 0.45vw 1.2vw;
-}
-
 .infoText .name{
-	padding: 0.45vw 0vw 0.45vw 1.2vw;
+	padding: 0vw 0vw 0.45vw 1.2vw;
 }
 
 .infoText .name .nameJP{
@@ -269,10 +375,17 @@ body{
 	font-weight: bold;
 }
 
+.infoText .lab{
+	font-size: 1.2vw;
+	padding: 0vw 0vw 0vw 1.2vw;
+	color: #787878;
+}
+
 .infoText .modalButton{
 	font-size: 1.2vw;
-	padding: 0.45vw 0vw 0.45vw 1.2vw;
+	padding: 0vw 0vw 0.45vw 1.2vw;
 	text-decoration: underline;
+	color: #787878;
 }
 
 
@@ -316,7 +429,7 @@ body{
 /*フッター*/
 footer{
 	height: 14vw;
-	background: black;
+	background: #1E2487;
 	
 	-ms-flex-pack: distribute;
 	justify-content: space-around;
@@ -328,15 +441,21 @@ footer{
 }
 
 footer #footer-wrapper{
-	margin: 0vw 7vw;
+	margin: 0vw 17vw;
+}
+
+footer div #icons{
+	margin: 2.667vw 0vw;
 }
 
 footer div #icons img{
 	width: 3vw;
-	padding-right: 1.2vw;
+	padding-right: 0.667vw;
 }
 
 footer div #credit{
+	margin: 2.667vw 0vw;
 	color: white;
-	font-size: 1.03vw;
+	font-size: 1.2vw;
+	letter-spacing: 0.15em;
 }

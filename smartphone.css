@@ -104,13 +104,38 @@ body{
 	display: block;
 }
 
-#key-visual-obj{
-	width: 83.85vw;
-	top: 14.9vw;
-	left: 16.15vw;
-	position: absolute;
-	display: block;
-	opacity: 0.7;
+/* パソコンで見たときは"pc"のclassがついた画像が表示される */
+@media only screen and (min-width: 751px){
+	#key-visual-obj-pc{
+		width: 58vw;
+		top: 14.9vw;
+		left: 48.4vw;
+		position: absolute;
+		display: block;
+		opacity: 0.7;
+	}
+	#key-visual-obj-sp {
+		width: 0;
+		height: 0;
+		display: none !important;
+	}
+}
+
+/* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
+@media only screen and (max-width: 750px) {
+	#key-visual-obj-pc{
+		width: 0;
+		height: 0;
+		display: none !important;
+	}	
+	#key-visual-obj-sp {
+		width: 83.85vw;
+		top: 14.9vw;
+		left: 16.15vw;
+		position: absolute !important;
+		display: block;
+		opacity: 0.7;
+	}
 }
 
 #key-visual-text{
@@ -120,6 +145,9 @@ body{
 	position: absolute;
 	display: block;
 }
+
+
+
 
 /*ステートメント*/
 .about-wrapper{
@@ -159,6 +187,9 @@ body{
 	height: 4.4vw;
 	margin: 5.333vw 0vw 2.667vw 2.667vw;
 }
+
+
+
 
 /*モーダル*/
 #modals-wrapper{
@@ -201,16 +232,21 @@ body{
 	height: 6.67vw;
 }
 
-.back-button{
+.first-column .back-button{
 	width: 6.67vw;
 	height: 6.67vw;
 	display: inline-block;
 	float: right;
 }
 
+.close-under{
+	display: inline-block;
+	text-decoration: underline;
+	margin: 0;
+}
+
 .modal-lab{
 	font-size: 3.45vw;
-	font-weight: bold;
 	display: inline-block;
 	float: left;
 }
@@ -244,6 +280,13 @@ body{
 	padding-top: 3vw;
 	text-decoration: underline;;
 }
+
+.history{
+	font-size: 3.45vw;
+}
+
+
+
 
 /*出展者情報*/
 .element .grades{
@@ -328,6 +371,7 @@ body{
 	text-decoration: underline;
 	color: #787878;
 }
+
 
 
 
