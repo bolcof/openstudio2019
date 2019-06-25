@@ -168,6 +168,14 @@ $(function(){
 
     ];
 
+    var comment_M2 = [
+    	//Asao
+    	"助けてください"
+
+    	//Usami
+    	,"ジェンダーのリサーチをもとに、被写体と鑑賞者の&quot視線&quotの関係を揺さぶるポートレイトや映像を制作する。"
+    ];
+
 
 
  	for(var itr=0; itr<14; itr++){
