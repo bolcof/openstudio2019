@@ -248,10 +248,39 @@ body{
 	text-decoration: underline;
 	margin: auto;
 	text-align: center;
+	font-size: 1.4vw;
 	/*position: absolute;
 	right: 0;
 	left: 0;
 	bottom: 2vw;*/
+}
+
+#_06_kanai_modal{
+	height: 93vw;
+}
+
+#_06_kanai_modal .close-under{
+	text-decoration: underline;
+	margin: auto;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 2vw;
+}
+
+#_07_kobayashi_modal{
+	height: 92vw;
+}
+
+#_07_kobayashi_modal .close-under{
+	text-decoration: underline;
+	margin: auto;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 2vw;
 }
 
 #_13_li_modal{
@@ -284,7 +313,6 @@ body{
 
 .modal-lab{
 	font-size: 1.4vw;
-	font-weight: bold;
 	display: inline-block;
 	float: left;
 }
