@@ -1,4 +1,4 @@
-a {  
+a {
   color: inherit;
   text-decoration: none;
 }
@@ -78,7 +78,8 @@ ul .header-button:hover{
 
 body{
 	margin: 0vw;
-	font-family: 'Avenir', '游ゴシック';
+  /*遠藤↓*/
+	font-family: "游ゴシック体", YuGothic;
 	word-break : break-all;
 }
 
@@ -128,7 +129,7 @@ body{
 		width: 0;
 		height: 0;
 		display: none !important;
-	}	
+	}
 	#key-visual-obj-sp {
 		width: 83.85vw;
 		top: 14.9vw;
@@ -173,11 +174,16 @@ body{
 	line-height: 1.7em;
 	text-align: justify;
 	font-feature-settings: "palt";
-	margin: 5.333vw 2.667vw;
+	/*margin: 5.333vw 2.667vw;*/
+  /*遠藤↓*/
+  margin: 5.333vw 2.667vw 50px;
 }
 
 .element #info-in-about hr{
-	size: 1;
+  /*遠藤↓*/
+	height: 1px;
+  background-color: white;
+  border: none;
 }
 
 .element #info-in-about p{
@@ -186,7 +192,8 @@ body{
 
 .element .section-title{
 	height: 4.4vw;
-	margin: 5.333vw 0vw 2.667vw 2.667vw;
+  /*遠藤↓*/
+	margin: 50px 0vw 2.667vw 2.667vw;
 }
 
 
@@ -215,7 +222,7 @@ body{
 	width: 84vw;
 	padding: 5.2vw;
 	background: #FFF;
-	border-radius: 2.8vw;
+	border-radius: 6px;
 	margin-top: 31.2vw;
 	margin-left: 2.8vw;
 	margin-bottom: 31.2vw;
@@ -288,10 +295,11 @@ body{
 
 
 /*出展者情報*/
-.element .grades{
-	margin: 9.333vw 2.667vw 5.333vw 2.667vw;
+.element .grades {
+	margin: 40px 2.667vw 5.333vw 2.667vw;
 	padding: 0vw 0vw 0vw 0vw;
 }
+
 
 .element .grades .section-title-mini{
 	height: 4vw;
@@ -345,6 +353,7 @@ body{
 
 .infoText .name{
 	padding: 1.333vw 0vw 1.333vw 2.667vw;
+  margin-top:-5px;
 }
 
 .infoText .name .nameJP{
@@ -412,9 +421,9 @@ body{
 
 /*フッター*/
 footer{
-	height: 38vw;
+
 	background: #1E2487;
-	
+
 	-ms-flex-pack: distribute;
 	justify-content: space-around;
 
@@ -433,8 +442,26 @@ footer div #icons{
 }
 
 footer div #icons img{
+  margin-top: 20px;
 	margin-right: 1.333vw;
 	width: 8vw;
+}
+
+footer div #contact{
+  margin: 2.667vw;
+  color: white;
+	font-size: 3.45vw;
+  letter-spacing: 0.15em;
+}
+
+footer div #contact_title{
+  font-weight:bold;
+}
+
+footer div #contact_mail{
+	font-size: 3.25vw;
+  margin-top:-10px;
+  margin-bottom: 20px;
 }
 
 footer div #credit{
@@ -442,4 +469,5 @@ footer div #credit{
 	color: white;
 	font-size: 3.25vw;
 	letter-spacing: 0.15em;
+  margin-bottom:30px;
 }
