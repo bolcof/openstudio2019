@@ -17,7 +17,7 @@ $(function(){
  			];
 
  	var info_M1 = [
- 				["01_osato",		"",		"大里　淳",		"Jun Osato",		"東京藝術大学 美術学部 デザイン科卒",			"https://loboqollopodol.tumblr.com/"],
+ 				["01_osato",		"",		"大里 淳",		"Jun Osato",		"東京藝術大学 美術学部 デザイン科卒",			"https://loboqollopodol.tumblr.com/"],
  				["02_otaki",		"",		"大滝 彩加",		"Ayaka Otaki",		"多摩美術大学 美術学部 絵画学科 油画専攻卒",		"http://otakiayaka.tumblr.com"],
  				["03_oka",			"",		"岡 千穂",		"Chiho Oka",		"東京藝術大学 音楽学部 音楽環境創造科卒",			""],
  				["04_kang",			"",		"姜 賢植",		"Hyeonsik Kang",	"東京藝術大学 音楽学部 音楽環境創造科卒",			""],
@@ -28,7 +28,7 @@ $(function(){
  				["09_shimura",		"",		"志村 茉那美",	"Manami Shimura",	"京都造形芸術大学 美術工芸学科 現代美術・写真コース卒",	""],
  				["10_seko",			"",		"瀬古 瑞歩",		"Mizuho Seko",		"日本大学 芸術学部 デザイン学科卒",				""],
  				["11_hirai",		"",		"平井 亨季",		"Koki Hirai",		"東京藝術大学 美術学部 先端芸術表現科卒",			""],
- 				["12_hukuhara",		"",		"福原 翼",		"Tsubasa Hukuhara",	"東京藝術大学 美術学部 絵画科 油画専攻卒",		"https://fukuharaot.tumblr.com/"]
+ 				["12_hukuhara",		"",		"福原 翼",		"Tsubasa Fukuhara",	"東京藝術大学 美術学部 絵画科 油画専攻卒",		"https://fukuharaot.tumblr.com/"]
  			];
 
  	var works_M2 = [

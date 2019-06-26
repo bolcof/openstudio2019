@@ -107,7 +107,7 @@ body{
 }
 
 /* パソコンで見たときは"pc"のclassがついた画像が表示される */
-@media only screen and (min-width: 415px){
+@media only screen and (min-width: 751px){
 	#key-visual-obj-pc{
 		width: 58vw;
 		top: 14.9vw;
@@ -124,7 +124,7 @@ body{
 }
 
 /* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 750px) {
 	#key-visual-obj-pc{
 		width: 0;
 		height: 0;
