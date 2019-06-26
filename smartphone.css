@@ -79,7 +79,7 @@ ul .header-button:hover{
 body{
 	margin: 0vw;
   /*遠藤↓*/
-	font-family: "游ゴシック体", YuGothic;
+	font-family: "游ゴシック体", YuGothic, "Noto Sans JP", sans-serif;
 	word-break : break-all;
 }
 

@@ -19,7 +19,7 @@ header *{
 #title{
 	display: inline-block;
 	width: 46.5vw;
-	height: 70px;
+	height: 60px;
 }
 
 #title img{
@@ -53,8 +53,8 @@ ul .header-button{
 ul .header-button img{
 	background-color: white;
 	height: 50px;
-  margin-top:6px;
-  margin-left:-15px;
+  	margin-top:6px;
+  	margin-left:-15px;
 }
 /*
 #header-top{
@@ -80,7 +80,7 @@ ul .header-button:hover{
 
 body{
 	margin: 0vw;
-	font-family: "游ゴシック体", YuGothic;
+	font-family: "游ゴシック体", YuGothic, "Noto Sans JP", sans-serif;
 	word-break : break-all;
 }
 

@@ -227,6 +227,6 @@ $(function(){
 		window.location.href = "https://www.facebook.com/Tokyo.Geidai.New.Media/";
 	});
 	$("#instagram-button").click(function(){
-		window.location.href = "http://hiroya-endo.net/";
+		window.location.href = "https://www.instagram.com/geidainewmedia/";
 	});
 });
