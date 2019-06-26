@@ -386,7 +386,7 @@ $(function(){
 			+ id + '/01.jpg">\n</div>\n<div class="infoText">\n<div class="name">\n<p class="nameJP">'
 			+ nameJP + '</p>\n<p class="nameEN">'
 			+ nameEN +'</p>\n</div>\n<p class="lab">'
-			+ lab + '研究室</p>\n<div class="modalButton">More infomation</div>\n</div>\n</div>'
+			+ lab + '研究室</p>\n<div class="modalButton">Details...</div>\n</div>\n</div>'
 		);
 
 		$("#modals-wrapper").append(
@@ -437,7 +437,7 @@ $(function(){
  			+ id + '">\n<div class="sumbnail" >\n<img src="artistInfomation/sumbnail/M1/'
 			+ id + '/01.jpg">\n</div>\n<div class="infoText">\n<div class="name">\n<p class="nameJP">'
 			+ nameJP + '</p>\n<p class="nameEN">'
-			+ nameEN +'</p>\n</div>\n<div class="modalButton">More infomation</div>\n</div>\n</div>'
+			+ nameEN +'</p>\n</div>\n<div class="modalButton">Details...</div>\n</div>\n</div>'
 		);
 
 		$("#modals-wrapper").append(
