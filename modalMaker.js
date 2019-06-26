@@ -1,6 +1,6 @@
 $(function(){
  	var info_M2 = [
- 				["01_asao",		"高山明",	"浅尾 鷹也",		"Takaya Asao",		"九州産業大学芸術学部デザイン学科卒",			"https://twitter.com/sotky_a"],
+ 				["01_asao",		"高山明",	"浅尾 鷹哉",		"Takaya Asao",		"九州産業大学芸術学部デザイン学科卒",			"https://twitter.com/sotky_a"],
  				["02_usami",	"桂英史",	"宇佐美 奈緒",	"Nao Usami",		"東京藝術大学 美術学部 デザイン科卒",			"http://naousami.com"],
  				["03_endo",		"佐藤雅彦",	"遠藤 紘也",		"Hiroya Endo",		"多摩美術大学 美術学部 統合デザイン学科卒",	"http://hiroya-endo.net/"],
  				["04_oikawa",	"高山明",	"及川 菜摘",		"Natsumi Oikawa",	"東京造形大学 造形学部 デザイン学科 映画専攻卒",		"https://natsumioikawa.tumblr.com/"],
