@@ -166,6 +166,16 @@ body{
 	margin: 5.333vw 2.667vw;
 }
 
+.element #sign{
+	color: white;
+	font-size: 3.45vw;
+	letter-spacing: 0.15em;
+	line-height: 1.7em;
+	text-align: right;
+	font-feature-settings: "palt";
+	margin: 5.333vw 2.667vw;
+}
+
 .element #info-in-about{
 	color: white;
 	font-size: 3.45vw;

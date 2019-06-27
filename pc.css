@@ -164,6 +164,17 @@ body{
 	font-feature-settings: "palt";
 	margin: 3.5vw 15vw;
 }
+
+.element #sign{
+	color: white;
+	font-size: 12pt;
+	letter-spacing: 0.15em;
+	line-height: 1.7em;
+	text-align: right;
+	font-feature-settings: "palt";
+	margin: 3.5vw 15vw;
+}
+
 /*
 .element h1{
 	font-size: 1.8vw;

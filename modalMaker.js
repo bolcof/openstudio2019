@@ -1,6 +1,6 @@
 $(function(){
  	var info_M2 = [
- 				["01_asao",		"高山明",	"浅尾 鷹哉",		"Takaya Asao",		"九州産業大学芸術学部デザイン学科卒",			"https://twitter.com/sotky_a"],
+ 				["01_asao",		"高山明",	"浅尾 鷹哉",		"Takaya Asao",		"九州産業大学芸術学部デザイン学科卒",			""],
  				["02_usami",	"桂英史",	"宇佐美 奈緒",	"Nao Usami",		"東京藝術大学 美術学部 デザイン科卒",			"http://naousami.com"],
  				["03_endo",		"佐藤雅彦",	"遠藤 紘也",		"Hiroya Endo",		"多摩美術大学 美術学部 統合デザイン学科卒",	"http://hiroya-endo.net/"],
  				["04_oikawa",	"高山明",	"及川 菜摘",		"Natsumi Oikawa",	"東京造形大学 造形学部 デザイン学科 映画専攻卒",		"https://natsumioikawa.tumblr.com/"],
@@ -12,7 +12,7 @@ $(function(){
  				["10_shimizu",	"桐山孝司",	"清水 潤",		"Mitsuru Shimizu",	"東京藝術大学 美術学部 先端芸術表現科卒",			""],
  				["11_shin",		"畠山直哉",	"申 晛湜",		"Hyunsik Shin",		"早稲田大学 文化構想学部 表象・メディア論系卒",	""],
  				["12_maeda",	"桂英史",	"前田 博雅",		"Hiromasa Maeda",	"武蔵野美術大学 造形学部 映像学科卒",			""],
- 				["13_li",		"高山明",	"李 和晋",		"Lee Hwajin",		"東京工芸大学芸術学部写真学科卒",				"https://hwajinleee.tumblr.com/"],
+ 				["13_li",		"高山明",	"李 和晋",		"Hwajin Lee",		"東京工芸大学芸術学部写真学科卒",				"https://hwajinleee.tumblr.com/"],
  				["14_yoshida",	"畠山直哉",	"吉田 真也",		"Shinya Yoshida",	"秋田公立美術大学 美術学部 ビジュアルアーツ専攻卒", ""]
  			];
 
